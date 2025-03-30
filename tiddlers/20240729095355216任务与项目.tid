@@ -1,0 +1,27 @@
+created: 20240729095355235
+modified: 20240729095712141
+tags: .
+title: 20240729095355216任务与项目
+
+0724 需购暖瓶，各类家具电
+
+卡片→文件→项目。
+
+!! 项目
+
+<<list-links "[tag[项目]!sort[name]]" field:name >>
+
+
+!! 任务
+<<list-links "[tag[任务]!sort[name]]" field:name >>
+
+--对应文件夹，去sm中循环去。文件夹也好，vimwiki中的文本文件也成，导入文件及文件夹。trilium中导出的也是。
+sm,supermemo:管理链接而非本体
+
+
+!! 意义
+
+<<list-links "[tag[意义]!sort[name]]" field:name >>
+
+
+

@@ -1,0 +1,18 @@
+created: 20231115023522613
+modified: 20231115032943364
+tags: jh集合
+title: gwgz
+
+
+
+<$list filter="[search:title[gwgz]!sort[created]]">
+
+
+---
+!!! <$link><<currentTiddler>></$link>
+
+ {{!!text}}
+
+</$list>
+
+

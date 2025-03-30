@@ -1,0 +1,15 @@
+created: 20231018025502873
+modified: 20231018025633029
+tags: 
+title: 2023-10-18-10-55inbox聚集集合
+
+
+<$list filter="[search:title[-inbox]]">
+
+---
+!!! <$link><<currentTiddler>></$link>
+
+ {{!!text}}
+
+</$list>
+

@@ -1,0 +1,15 @@
+created: 20231014114327040
+modified: 20231014114352859
+tags: 
+title: 2023-10-14-19-43聚集集合win
+
+
+<$list filter="[tag[win]]">
+
+---
+!!! <$link><<currentTiddler>></$link>
+
+ {{!!text}}
+
+</$list>
+

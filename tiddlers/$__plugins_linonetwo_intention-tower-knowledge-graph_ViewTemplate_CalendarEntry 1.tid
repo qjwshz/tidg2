@@ -1,0 +1,7 @@
+caption: {{$:/plugins/linonetwo/tw-calendar/tiddlywiki-ui/Images/GoToCalendarImage}} <<lingo Tabs/CalendarRecord $:/plugins/linonetwo/intention-tower-knowledge-graph/language/>>
+created: 20240730145305045
+modified: 20240730145309631
+tags: $:/tags/ITKG/UnderTask
+title: $:/plugins/linonetwo/intention-tower-knowledge-graph/ViewTemplate/CalendarEntry 1
+
+<<tabs "[all[tiddlers+shadows]tag[$:/tags/ITKG/CalendarEntry]] -[enlist{$:/config/ViewTemplate/CalendarEntry}]" "$:/plugins/linonetwo/intention-tower-knowledge-graph/ViewTemplate/AddCalendarEntryToday" >>

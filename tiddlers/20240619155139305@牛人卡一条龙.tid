@@ -1,0 +1,39 @@
+created: 20240619155139309
+modified: 20240619162734581
+tags: 
+title: 20240619155139305@牛人卡一条龙
+
+!! 以下是按标题正则并排除@符号抽象，后者用于集合，一条龙。搜索罗列了  
+
+
+<$list filter="[regexp:title[牛人|niur]!regexp:title[@]!sort[created]]">
+
+
+
+
+---
+!!! <$link><<currentTiddler>></$link>
+
+ {{{!!text}}}
+
+</$list>
+
+
+
+!! 以下是按标签搜索罗列了，直搜三类标签标题关键词仅显标题
+
+<$list filter="[search:[牛人]][search:[日志]!sort[created]]">
+
+
+--
+!!! <$link><<currentTiddler>></$link>
+
+
+
+</$list>
+
+
+以下是测试，三个中括号可显示。
+
+{{{[search:[XXXXXX00]]}}}
+

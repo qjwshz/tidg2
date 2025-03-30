@@ -1,0 +1,12 @@
+author: Ben Webber
+core-version: >=5.1.20
+dependents: 
+description: Add a count to all tag pills
+license: MIT
+list: README
+name: tag-count
+plugin-type: plugin
+source: https://github.com/benwebber/tiddlywiki-plugins
+title: $:/plugins/benwebber/tag-count
+type: application/json
+version: 0.2.2

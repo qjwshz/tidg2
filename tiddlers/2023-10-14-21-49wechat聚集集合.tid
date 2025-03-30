@@ -1,0 +1,16 @@
+created: 20231014134913696
+modified: 20231014134943858
+tags: 
+title: 2023-10-14-21-49wechat聚集集合
+
+
+
+<$list filter="[tag[wechat]]">
+
+---
+!!! <$link><<currentTiddler>></$link>
+
+ {{!!text}}
+
+</$list>
+

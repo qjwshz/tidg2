@@ -1,0 +1,11 @@
+created: 20231006032917266
+modified: 20240929043115745
+tags: hx_b $:/tags/Commander/Working 1t
+title: vim
+
+vim号称编辑器之神。[[sj神乎其技_1s]]
+[[1s_sj神乎其技]]
+
+以下组合到一起还是未能完成vimwiki中的zettel方式，弹错依旧。隔壁的nevim倒是，从外表看去是实现了的。
+但怎么说呢，vimwiki中也方便联系，联系要慎重，要克制，是有意义的。
+fzf-0.42.0-windows_amd64.zipfzf.vim-master.zipvim-zettel-master.zipvimwiki-2023.04.04_1.zip

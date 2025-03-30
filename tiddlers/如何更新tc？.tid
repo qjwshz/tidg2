@@ -1,0 +1,32 @@
+annotate-colour: dodgerblue
+created: 20240127131331219
+difficulty: 3.9899999999999998
+due: 20240510111002279
+elapsed_days: 0
+lapses: 0
+last_review: 20240504111002279
+modified: 20240127131356070
+reps: 1
+scheduled_days: 6
+stability: 5.8
+state: 2
+tags: wyd
+title: 如何更新tc？
+tmap.id: e3f533e6-d4e8-4ac4-aa4b-07695ede7483
+
+2024-01-27 
+来自pary
+如果你只用了32位版本
+1、解压exe>解压cab
+2、复制一份你原本的tc打开
+3、左侧进入你现在的TC目录，右侧进入解压的INSTALL目录
+4、除了ini文件和WCMICONS的两个文件，左侧复制文件列表到剪贴板，在右侧载入剪贴板
+5、复制到左边，覆盖
+6、tc11增加了一些功能，右侧检测哪些没选，把32位的那几个复制过去
+
+如果你32和64都用了
+那么第四步就可以把右边的全部覆盖左边（除了ini文件和WCMICONS的两个文件）
+
+LANGUAGE下，如果你菜单自定义过，不要覆盖WCMD_CHN.MNU文件，其他两个WCMD_CHN文件覆盖
+e下的英文帮助 ，看你是否需要，群共享有中文帮助
+

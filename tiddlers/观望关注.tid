@@ -1,0 +1,14 @@
+created: 20250201052958055
+modified: 20250201053229221
+tags: evd
+title: 观望关注
+tmap.id: 55cbe866-0b35-4ad1-a7f8-c0e9e819454c
+
+ vimwiki中的手动回顾，排期，quicker处理。 与tc中生成当前日期文件夹联合用。
+ 
+进一步，全自动排期则为sm。
+
+vimwiki中需关注的是github上vimwiki-zettel插件。 所有插件更新。
+
+需架梯，用到proxifier来指定。
+

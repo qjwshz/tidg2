@@ -1,0 +1,14 @@
+caption: {{$:/language/codemirror6/keymap/caption}}
+caption-zh: {{$:/language/codemirror6/zh/keymap/caption}}
+created: 20250218104550136
+description: {{$:/language/codemirror6/keymap/description}}
+description-zh: {{$:/language/codemirror6/zh/keymap/description}}
+id: 6
+modified: 20250221034809724
+option-names: standard vim
+option-values: standard vim
+settings-group: keymap
+settings-template: select
+title: $:/config/codemirror-6/keymap
+
+standard

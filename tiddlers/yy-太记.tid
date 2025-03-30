@@ -1,0 +1,77 @@
+created: 20230825041901145
+modified: 20240929022700933
+tags: 太记|太微|墨屉 $:/tags/Commander/Working 1t
+title: yy-太记
+
+2023-11-07 初接触太微，惊讶的是一个html竟能有完整功能？故事河视图好有意思。
+
+
+
+2023-10-21 当然，尽管内容数据很难占据多少空间，安装过多不必要的插件却可能很快使 html 源文件尺寸增大，这点需要注意。
+一些小问题
+禁用搜索最小字数限制
+TiddlyWiki 默认的搜索框存在字符数限制，要求搜索关键词大于三个字符。对于英语环境来说这很合理，但是对于中文来说，二字词的搜索是很常见的，因此很不方便。修改这个设置只需要：
+
+添加一个标题为 $:/config/Search/MinLength 的新条目
+内容为 1
+
+
+使用树状结构组织条目内容
+如果你对条目的组织结构有强迫症，又不像我一样觉得内容零散到只能手动编写目录，使用自带的树状目录系统是个好选择。
+
+<div class="tc-table-of-contents">
+<<toc-selective-expandable 'Contents' sort[title]>>
+</div>
+通过以上代码可以创建以 Contents 条目(该条目不会显示出来)为根节点，按照标签关系嵌套的树状目录结构列表。
+
+通过将这个条目命名为「目录」，并加上 $:/tags/SideBar 标签，就可以使这个目录显示到侧边栏。
+
+
+
+初接触太微，惊讶的是一个html竟能有完整功能？''故事河视图''好有意思。
+
+越上面的本文越决定生成的方向，越下面的本文越限制本文的细节。[[卢曼卡片编码-索引-2023-10-03-1916]]
+
+
+Meme of LinOnetwo — 林一二的模因和想法
+https://wiki.onetwo.ren/#Index:Index
+
+Tidme 墨屉 —— 终身知识，深入脑海 - 知乎
+https://zhuanlan.zhihu.com/p/493377540
+
+> 基于tiddlywiki笔记软件，渐进学习业界鼻祖supermemo，也具备制卡，摘录，让子弹飞一会，问答挖空。另外有，优先级设定，也是没少。  
+TW5 Locator plugin — discover and search by context
+https://bimlas.gitlab.io/tw5-locator/
+
+以上这个，帮助较为详细， 需常回顾。
+
+再高端的就是灵活的筛选器，标签用法了。需大量的实践例子去验证。
+
+
+我折腾真的不多。就18个插件。Auto Complete、CodeMirror、CodeMirror Enhanced、CodeMirror Search and Replace、Comments、CPL Repo、ECharts、Favorites、Focused Tiddler、inverse-link-and-folder、ItonNote、LeftOpenTab、locator、Relink、Shiraz、Todolist、Trashbin
+
+[[qyql--20240213190442]]
+
+
+
+
+[[ss_rss]]
+
+Tiddlywiki 是一位名叫 Jeremy Ruston 的英国开发者开发的开源软件，它定位于个人 wiki,
+其官网定义的号为「a non-linear personal web notebook（一款非线性的个人网络笔记
+本）」，第一版发布于 2004 年 9月30 日，你可以在 Github 上查看该项目的源代码。
+2021年，我不仅将个人笔记完全迁移到Tiddlywiki，还在做几件事情：
+·分享基于Tiddlywiki 的个人笔记流程与思考，可参见「现代数字笔记指南」的部分
+章节;
+，制作基于Tiddlywiki 的电子书以及付费内容存档;
+
+
+
+这些不断的探索与尝试让我再次感受到Tiddlywiki 的强大，一方面，它足够灵活，整个「应
+用」不过是一个HTML文件，却封装了内容、样式与功能；另一方面，它又足够强大，从标
+签、嵌入、过滤器到宏，满足用户不同层次的需求。
+人
+更重要的一点，Tiddlywiki 足够通用，它不会被某个特定程序绑定，无论是内容生产者还是消
+费者，我们无需再去搜索或购买其他应用，也不用担心应用停更之后导致数据丢失，桌面平台
+任意一个浏览器、各个平台的 Dropbox 都可以打开访问，你还可以将其部署到 PHP 或
+NodeJS、Docker 的环境里,

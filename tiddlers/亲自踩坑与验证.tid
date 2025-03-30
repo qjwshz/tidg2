@@ -1,0 +1,10 @@
+created: 20230913093238403
+modified: 20230913093254442
+tags: 
+title: 亲自踩坑与验证
+
+Q:无法定位程序输入点DiscardVirtualMemory于动态链接库KERNEL32.dll 上
+
+A:在安装最新版的tidGi（太记）时弹出这个，最后判断是electron的版本有关。网上搜索结果显示，这是WindoWs 8.1新增加的函数。如果你用Win7是没这个功能的。看看软件有没有Win7或以前的版本，或者升级系统。
+
+

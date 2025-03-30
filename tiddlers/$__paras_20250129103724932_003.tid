@@ -1,0 +1,10 @@
+caption: 灵活的筛选搜索
+created: 20250317081402678
+modified: 20250317081950472
+tags: $:/paras/20250129103724932
+title: $:/paras/20250129103724932/003
+type: 
+
+[search:title:[paras/2024]][search:title:[paras/2025]]
+
+paras插件内容作转移时，需按上面将系统条目也筛出来再导入。但会覆盖以往新增添的。 先是用paragraphs标签进行筛选。

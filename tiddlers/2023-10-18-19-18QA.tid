@@ -1,0 +1,12 @@
+created: 20231018111800612
+modified: 20231018130605280
+tags: hx_管
+title: 2023-10-18-19-18QA
+
+什么工具可以监控系统哪个进程占用cpu最大，发现win10总是在空闲时风扇狂转，打开任务管理器后立即就下降了?
+答:不会是中挖矿病毒了吧.
+试下Perfmon windows 自带的监控，记录一段时间影响性能的软件，Process Lasso Pro好可以测试下。
+一套鼠标控制多个主机的有哪些工具？
+答：一鼠键控制多台，可拷贝到另一台电脑。
+synergy 无界鼠标 inputDirector  还有个啥软件都用过。
+最后选multiplicity，multiplicity还支持音频传输，文件跨屏拖动传输。

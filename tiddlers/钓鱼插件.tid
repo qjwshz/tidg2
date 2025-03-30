@@ -1,0 +1,25 @@
+created: 20211111053940936
+difficulty: 4.44726558763971
+due: 20240223045223827
+grade: 1
+history: [{"due":"20230630050527427","interval":1,"difficulty":5,"stability":2,"retrievability":1,"grade":-1,"lapses":0,"reps":1,"review":"20230629050527427"},{"due":"20230912024635458","interval":29,"difficulty":4.417028309149895,"stability":45.8720175505013,"retrievability":0.21702830914989518,"grade":1,"lapses":0,"reps":2,"review":"20230728024635455"}]
+interval: 81
+lapses: 0
+modified: 20240504112445038
+reps: 3
+retrievability: 0.8302372784898147
+review: 20231017045223827
+stability: 129.23084402575213
+stream-list: [[太记 OR 太微 OR 墨屉]]
+stream-type: default
+tags: 钓鱼插件 ? !
+title: 钓鱼插件
+type: text/vnd.tiddlywiki
+
+使用理论上超 Anki 赶 ~SuperMemo 的 [[FSRS 自由间隔重复调度|https://zhuanlan.zhihu.com/p/454932406]]算法，将[[间隔重复|https://www.zhihu.com/topic/21338969/hot]]系统集成到 TiddlyWiki 中。
+
+<<<.tc-big-quote
+钓鱼插件把''笔记条目''作为[[抽认卡|https://www.zhihu.com/topic/21535352/intro]]进行间隔重复，既然在 TiddlyWiki 中 ''Tiddler''（笔记条目）的形象说法是故事河中的小鱼，那么就把将其勾入脑海中的插件叫做钓鱼。
+<<<
+
+<br><br>

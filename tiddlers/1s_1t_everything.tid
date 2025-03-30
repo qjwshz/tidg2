@@ -1,0 +1,27 @@
+created: 20240329023633916
+modified: 20240331043744080
+tags: 
+title: 1s_1t_everything
+
+2024-02-20 
+直接http服务，everything搜索得到，复制粘贴即可，冒号后加关键词.以下可以直接复制粘贴即用
+!alternate-data-stream-ansi:zone alternate-data-stream-ansi:
+--20240313221235 alternate-data-stream-ansi:1g，如果要想这个起作用，首先是要用到ev1.5的http服务插件才行，ads数据流本也是ev1.5的新增功能
+ext:ion unicodecontent:菜|ansicontent:菜  
+但这非常尴尬，必须得ev1.4开启，只能混用才可能出现，单独1.5是无法作到的。否则会导致在httph上未能成功复现，但本地搜索框中是正常的。
+
+
+
+以上远程http,ev服务搜索也是可以用的。复制粘贴即可使用
+
+dm:2024- !alternate-data-stream-ansi:=3 alternate-data-stream-ansi:
+
+与tc的高度紧密整合，是tc9大版本更新亮点。
+
+2024-03-29
+搞定，everything的管理筛选器很灵活。但需要加上宏，如ini<search>，或ino<search>，才能生效.
+
+两者单独拎出来了。
+
+!c: <descript.ion content:search:>|<descript.ion ansicontent:search:>|<descript.ion utf8content:search:>|<descript.ion utf16content:search:>|<descript.ion utf16becontent:search:>  
+

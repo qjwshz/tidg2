@@ -1,0 +1,28 @@
+annotate-colour: orange
+created: 20240128131812096
+difficulty: 4.8508
+due: 20240613045245290
+elapsed_days: 96.64859775462963
+lapses: 0
+last_review: 20240504045245290
+modified: 20241024113447259
+reps: 2
+scheduled_days: 40
+stability: 40.20309804309917
+state: 2
+tags: para 1s_3p 1t
+title: 3p-android
+tmap.id: 338cfbcf-34b6-49c8-bf96-a9cc01d5bcd6
+
+2024-10-23 vFlat的自动拉直，漂白很好的，导出pdf需要付费，全能王的漂白和拉直没有那么友好，导出pdf还可以。比起仅限单张扫描的officelen要速度提升不少。
+
+netstat -ano | findstr XXX如，5037 ，可以查看端口使用情况：
+tasklist |findstr XXX如，5596，可以查看是什么进程占用了；
+taskkill /pid XXX如，5596 /f 关掉进程的命令：
+
+
+若再出现积极拒绝，可以考虑，将adb.exe给结束掉再说。adb devices ,adb kill-server start-server
+
+至于这个，让人费解的是，用数据线连接usb重新作端口断开尝试时，必须得原生数据线，随便捞的一根质量次些的数据线，居然无法正常连接。
+
+确实依旧让人费解[[1s_bsbdj]]

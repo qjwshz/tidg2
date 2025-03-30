@@ -1,0 +1,16 @@
+created: 20231014030929536
+modified: 20240926021404279
+tags: project 虚拟集合
+title: 2023-10-14-11-09太记MT墨屉聚集集合主题
+
+
+<$list filter="[tag[太记|太微|墨屉]]">
+
+---
+!!! <$link><<currentTiddler>></$link>
+
+ {{!!text}}
+
+</$list>
+
+

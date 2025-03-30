@@ -1,0 +1,23 @@
+caption: 
+created: 20240307051146568
+difficulty: 3.7478003092274337
+due: 20240506052137307
+grade: -1
+history: []
+interval: 0
+lapses: 0
+modified: 20240505052137307
+reps: 1
+retrievability: 1
+review: 20240505052137307
+stability: 1.05
+tags: time/act ?
+title: 1s_tools
+
+!! excel专栏
+XLOOKUP函数是Excel中一个强大的查找和引用函数，它在Excel 365和Excel 2019中引入，用于取代旧版的LOOKUP函数。XLOOKUP提供了更灵活和强大的功能，特别是在处理查找匹配、横向搜索、搜索返回默认值以及使用通配符搜索等方面
+
+例如，如果你有一个员工名单列表，并且你想根据员工的ID查找他们的姓名，可以使用以下XLOOKUP函数：
+
+=XLOOKUP("员工ID", A1:A10, B1:B10)
+如果员工ID在A1:A10范围内找到了精确匹配，那么B1:B10范围内相应行的值将被返回。

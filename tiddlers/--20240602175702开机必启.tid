@@ -1,0 +1,17 @@
+created: 20240602095647332
+creator: qwertc
+modified: 20240603160156358
+modifier: qwertc
+tags: hx_w
+title: --20240602175702开机必启
+wysiwyg: yes
+
+Autoruns，与tc插件autorun是不同的两件事。Logon登陆，精简，只开户必要的，确保进入桌面迅速，再作必要必需再启
+
+如proxifier是[[--20240602175838代理工具]]，有时候能派上用场，对git,vim插件更新等，当然v2ray等前置梯子条件是必需。ccproxy也令人印象深刻，网页代理，一个浏览器及插件即可临时使用网络，非常神奇。
+
+目前开启的，Runany(→图文等fscapture等,逍遥的第二菜单如虎添翼),ev(tc),quickjumper,webdz,vim对应的微力同步，vnote（图像，md文本，文件夹）对应的syncthing，可排除。
+
+二步开启的，mouselnc，mdict,dte，kclock,坚果云。trilium note,wo-mic,v2ray,Cncrypt(虚拟磁盘），Quicker。pixpin(截图含ocr)等。keepass（与手机同步），vnote。tidgi桌面版，win7上用vextex进行兼容，手机桌面端双向同步无障，保持两个工作区，不定期导出为单文件备份。lemon push柠蒙push。用于文字非图像信息传输，文档类，临时用ftp或局域网微力，syncthing同步。
+
+notepad3,[[--20240602182802tctc]]ez版tc中增强，用于临时复制，间隔复制些东西还是挺方便的，最后再转至vim中进行编辑，编辑体验无与伦比。

@@ -1,0 +1,29 @@
+created: 20231015035658974
+modified: 20241018041812219
+tags: $:/tags/Commander/Working 1t sm
+title: 1t工具人\tool\supermemo
+
+2024-07-30 win10 sm IE edge等批量导入 win10封闭了ie之后现在批量网页导入也成了大问题，这是针对18吧，19应当不成问题。但win10上确实没有测试过，回头在vhd上测试下。
+
+下载google的win7最后版本测试下，是否运动导入。新的19.02已经支持中文EDGE了，只是还不完美。前者得须英文版，这个近两天已测试，edge中文版也成，但是否必须安装版呢，奶酪的便携版是否可行
+
+2024-07-21 补充 ，IE浏览器可以顺利打开wiki格式，无须转换为html.以及太记的分散式文本tid格式或太记导出为html也可成功导入。而直接导入ctlr+q文本txt或者html，受编码或其他原因，较为复杂，乱码概率大。最好是先入先出的模式，如剪切板clibord，进行初步筛选过滤。再粘贴进入。
+
+
+
+2024-07-14 supermemo应该侧重于哪？
+
+历经supermemo assist的测试，从激动到平淡。缺点不少：pdf导入后增加了主体，致使的是带中文的标题乱码。支持chrome导入，但本地网页如file:/开头的，或本地打开txt文件md文件无法导入，而IE浏览器则是可以的。[[X00_supermemo聚集]]
+
+2023-10-15-11-56
+SuperMemo渐进学习大型指北
+https://www.kancloud.cn/ankigaokao/incremental_learning 
+
+帮助文档
+https://www.yuque.com/supermemo/wiki
+
+
+
+sm文件菜单中的合并，是将当前合并到（目的地）去。
+
+

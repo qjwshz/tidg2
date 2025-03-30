@@ -1,0 +1,10 @@
+created: 20250101104936116
+modified: 20250101105035957
+title: 为什么shizuku是非root用户的不多选择？
+tmap.id: 61e7ab0b-6677-445f-bcc9-5ed17a7422e7
+
+手机重启后，需要插入原装线重新激活。
+
+adb shell sh /storage/emulated/0/Android/data/moe.shizuku.privileged.api/start.sh
+
+它能有利于至少三个：小黑屋，mt管理器，GTD跳广告

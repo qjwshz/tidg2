@@ -1,0 +1,14 @@
+created: 20231007024454317
+modified: 20231007024721150
+tags: 
+title: 长图变pdf导jpg再批量识别2023-10-07-1044
+
+离线ocr识别工具
+Umi-OCR.Rapid v1.3.4-alpha.1，支持对多个图片批量识别。
+
+pdfxchange viewer(editor)，将pdf页面导出为jpg格式。
+
+长图转pdf则是用得fscapture的另存为pdf，调节好页边距，合理布局页码。
+
+最后一点，识别结果可存为独立的txt文件，再用tcimg（tc工具栏）上作合并，或直接全塞一个txt文件中。
+

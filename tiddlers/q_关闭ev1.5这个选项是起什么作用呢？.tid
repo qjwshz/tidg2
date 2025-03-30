@@ -1,0 +1,26 @@
+created: 20240203091828591
+modified: 20240203094710768
+tags: .
+title: q:关闭ev1.5这个选项是起什么作用呢？
+
+tc3千群中问一下。问了没有回复，自己搜索了一下，大概搞明白了。也许对其他第三方工具来调，用这个搜索功能的话可能会有影响，比如说像知名的runany或runz之类。如果受到影响了，那就切回来，禁用这个选项就行。但是也未经证实。
+
+Everything 1.5 SDK
+The Everything SDK for Everything 1.5 is in development.
+For now, the Everything 1.4 SDK is compatible.
+
+Disable the 1.5a instance to use the Everything 1.4 SDK.
+
+
+
+Disable the 1.5a Instance
+
+To use the Everything 1.4 SDK you will need to disable the "1.5a" instance.
+This 1.5a instance will be removed when Everything 1.5 is ready for beta/release.
+Completely exit out of Everything (right click the Everything system tray icon and click Exit)
+Open your Everything-1.5a.ini file in the same location as your Everything64.exe
+Add the following line to the end of the file:
+alpha_instance=0
+Save changes and restart Everything.
+Everything will no longer use an instance name for window classes (IPC)
+Everything will continue to use the 1.5a instance name for settings, data and the Everything Service.

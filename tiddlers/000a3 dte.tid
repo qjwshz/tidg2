@@ -1,0 +1,13 @@
+created: 20230923080728317
+modified: 20240929022700682
+tags: $:/tags/Commander/Working 1t
+title: 000a3 dte
+
+作者老陆，更新不辍。
+
+从当初简版至如今功能丰富翔实，ui布局尽可能合理。
+
+可作totalcommader(tc)的好辅助，助手。在命令行中输入dte即可呼出，类似的还有vp，虚拟文件夹，自定义缩写命令。
+
+dte与everything的搭配，天作之合；按模板加载搜索中，ntfs-diz插件可读取文件信息流的个数、memo，tags也是可以（但时好时坏）。方便在tc文件列表中一览无余。
+

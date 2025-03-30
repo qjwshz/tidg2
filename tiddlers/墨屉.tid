@@ -1,0 +1,33 @@
+created: 20220417093903243
+modified: 20250317103249391
+tags: $:/tags/Commander/Working 1t
+title: 墨屉
+type: text/vnd.tiddlywiki
+
+[img height=100 [$:/favicon.ico]]
+
+
+2024-09-27 墨屉tidme
+https://oflg.github.io/Tidme/manual/zh-Hans
+以上是最新网址，电脑端打不开，但手机端可打开。
+
+2025-03-17 以下可以打开
+https://oflg.github.io/Tidme/manual/zh-Hans
+但可能需要架梯。
+
+https://tiddlymemo.org/zh-Hans
+
+墨屉的新版本，未尝鲜，变化较大，谨慎升级。即使升级，也要注意保存备份数据
+
+
+2023-10-07 已经验，TextEditorAnywhere.exe为其编辑方面的绝壁搭配。受surfing keys插件在编辑杠的“无所作为”，无法调用，转而想到前者，listary作者同款，虽年久远，在ediary上也不太理想，但出奇地适配于墨屉。
+
+[[vim]]
+
+2023-10-07 可以说，以vim为中转桥梁，一头连接[[000a3 dte]] ，实现本地文件夹、文件的[[位置编码-3rd 十月 2023 10:49]]、关键词等，另一头则连接墨屉，同样践行位置编码思想，卢曼卡片盒理念。
+
+
+
+
+
+

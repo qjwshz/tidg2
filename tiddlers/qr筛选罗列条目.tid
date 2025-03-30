@@ -1,0 +1,17 @@
+caption: qr筛选嵌入
+created: 20230825040543784
+modified: 20231215021911262
+tags: $:/tags/TextEditor/Snippet
+title: qr筛选罗列条目
+tmap.id: 66822018-11b7-4d2f-90a3-5f4e6577b174
+
+<<list-links "[regexp:title[1a]tag[test]!sort[name]]" field:name >>
+
+
+以上是标题与标签相结合
+
+!!以下加了或
+<<list-links "[regexp:title[^a00|^b00|^000|^100|^200|^300|^400|^500|^600|^700|^800|^900]!sort[name]]" field:name >>
+
+
+

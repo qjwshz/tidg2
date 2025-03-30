@@ -1,0 +1,13 @@
+calendarEntry: yes
+caption: 多标签页整理
+created: 20240729120728423
+endDate: 20240729122500000
+modified: 20240729122555409
+startDate: 20240729120700000
+tags: 解决问题 处理一波vimwiki
+title: 2024-07-29T20:00:00+08:00
+type: text/vnd.tiddlywiki
+
+少就是多，跳转当然方便。无与伦比的灵活性，编辑体验。
+
+尝试生成文件夹，标签树用连接符，往sm中导入，形成文件夹。文件夹中放readme.txt，生成参考路径。这个路径从磁盘录下保持稳定面不变。

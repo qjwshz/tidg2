@@ -1,0 +1,28 @@
+caption: a software
+color: 
+created: 20240724022118734
+description: 
+modified: 20240724023014948
+moscow: S
+purpose: 
+tags: Software [[Should have]]
+title: software/20240724102118671dte标签树
+type: text/vnd.tiddlywiki
+url: 
+
+{{!!description}}
+
+如何全方位践行dte的标签树?
+
+为什么要践行，是因为树状居中，地位尤其重要。线性，树状，网状。
+
+状物状景抒情
+
+vimwiki中改反斜杠为连接线，下划线容易导致倾斜问题。而斜杠，不论正反，均会造成vimwikitag数据库不正常，弹错。折叠的话启用非custom，为expre，这在帮助中搜索folder折叠均可。
+
+mbyase中，线索关联功能，右键能批量将dte快捷标签中的标签转为线索关联。
+
+下一步验证，mybase引用后，如果将源删除，会否一并消失。至少，vimwiki不会受影响的。
+
+
+

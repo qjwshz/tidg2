@@ -1,0 +1,20 @@
+caption: 终端中的vi复制有限制
+created: 20250204010318780
+modified: 20250205063513828
+tags: $:/paras/20250130022617667
+title: $:/paras/20250130022617667/007
+type: 
+
+在终端中使用 vi 或 vim（即使它是一个终端版本）时，复制文本到系统剪贴板的方法会受到一些限制，因为终端版本的 vi 或 vim 通常不支持直接与系统剪贴板交互
+果终端和 Vim 配置支持，也可以直接使用 "+y。如果这些方法都不适用，可以手动选中并复制文本.
+
+以上不行，正常方法是：
+
+
+sudo apt update
+sudo apt install vim
+
+sudo apt install xclip
+通过以上安装解决。按"+yy则可以
+
+或install vim-gtk则可。

@@ -1,0 +1,10 @@
+created: 20250216042051776
+modified: 20250216042352676
+title: 为什么又用alist替代webdz了？
+
+主要是受Ez推荐，最新版alist也修正了原win7最后版本，受Go的受限，通过vxKexSetup-win7兼容_Release_1_1_1_1375，实现最新alist在win7上也可用。
+
+使用教程从网上帖子受益不少。部分剪至trilium中了。但论编辑还是得vim。 
+
+
+

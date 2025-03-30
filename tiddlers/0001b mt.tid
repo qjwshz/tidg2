@@ -1,0 +1,82 @@
+created: 20230719125458120
+modified: 20240213110027234
+tags: 日志 太记|太微|墨屉
+title: 0001b mt
+
+timimi chrome扩展¹，安装完后需要将允许访问文件地址勾选 。效果还可以。
+
+
+⑴Timimi — One saver to rule them all
+https://ibnishak.github.io/Timimi/
+
+在墨屉之前还有一个分枝，较为优秀，
+
+TiddlyRoam 
+Your Open Source External Brain  
+它较为先进引入roammap，还有些细节方面引入，如出入链。
+
+
+我觉得标签用来当文件夹就够了，提供一个简单的树状结构信息，其他网状关联可以用字段和链接。有的工具可能直接提供了有向无环图的文件夹功能，那其实应该就没必要用标签了。
+
+「标签是将性质不同的项目联系起来的简单方法」其实说的也是文件夹，如果将一个条目作为项目文件夹，那么其它加了这个条目名作为标签的子条目，就相当于都是和这个项目相关的笔记了。
+
+[all[tiddlers]!is[system]] :filter[tags[]count[]compare:number:gteq[2]]
+
+GitHub: clsturgeon/MemoryKeeper: Manage research projects in TiddlyWiki (github.com) 41.
+Capture and cross-reference your research and conclusions with your research papers and e-books.
+Memory Keeper by Craig Sturgeon.
+
+
+以上是继墨屉后又一个人优秀版本。貌似是单文件版。
+
+
+太微中文教程 — 中文社区共建的TiddlyWiki教程，体验从入门到知识管理大师之路
+https://tw-cn.cpolar.top/#%E5%85%B6%E5%AE%83%E7%BA%A2%E6%A1%86%E6%8A%A5%E9%94%99%E6%8E%92%E6%9F%A5:%E5%85%B6%E5%AE%83%E7%BA%A2%E6%A1%86%E6%8A%A5%E9%94%99%E6%8E%92%E6%9F%A5
+
+作者林一二，qq群中中用cn 空格 关键词。或者chatgpt.
+
+
+tiddlywiki能用条目名作为 Tag 其他条目，达到设置子条目的效果
+二字词的搜索是很常见的，因此很不方便。修改这个设置只需要：
+添加一个标题为 $:/config/Search/MinLength 的新条目。在core内核中修改。
+
+太微模板是指预制的太微，相对于空白太微而言根据作者的需求和想法包含了一些功能性的插件和美观性的主题布景以及为了满足插件之间依赖关系或者整体性设计而封装的具有明显功能性的太微。
+太微模板：TiddlyMemo（墨屉）、Knowledge base Template（太记默认模版）、TiddlyWiki XP
+
+最简单的TiddlyWiki使用方法：学习简单的WikiText语法、筛选器（用于筛选条目）、学习使用Shiraz、使用TidGi（太记）。剩下的就交给开发者和Geek（极客）吧！
+
+太微中文教程 — 中文社区共建的TiddlyWiki教程，体验从入门到知识管理大师之路
+https://tw-cn.cpolar.top/#%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E5%A4%AA%E5%BE%AE%EF%BC%81:%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E5%A4%AA%E5%BE%AE%EF%BC%81
+
+
+
+太微中文教程 — 中文社区共建的TiddlyWiki教程，体验从入门到知识管理大师之路
+https://tw-cn.cpolar.top/#%E7%AD%9B%E9%80%89%E5%99%A8:%E7%AD%9B%E9%80%89%E5%99%A8
+
+
+
+以上讲到嵌入了。还有筛选器，是重中之重。
+
+https://tw-cn.cpolar.top/#%E5%8F%8C%E9%93%BE%E6%88%96%E9%97%B4%E9%9A%94%E9%87%8D%E5%A4%8D%E6%97%A0%E5%8E%8B%E8%AE%B0%E5%BD%95:%E5%8F%8C%E9%93%BE%E6%88%96%E9%97%B4%E9%9A%94%E9%87%8D%E5%A4%8D%E6%97%A0%E5%8E%8B%E8%AE%B0%E5%BD%95
+
+太记也有无压记录，放心记录（钓鱼插件）。
+
+
+cn 聚合
+# 太微独特之处展开 #科普幻灯片 @林一二
+https://dwz.tax/mVq4
+# 双链或间隔重复无压记录 #笔记思维 @林一二
+https://dwz.tax/ooy1
+# 提供自动化聚合整理的能力，让你从更抽象的角度上整理笔记，而不用亲手整理 #科普幻灯片  #自动化 @林一二
+https://dwz.tax/ooxY
+# 知识链 #资源链接 @WhiteFall
+https://dwz.tax/ooxX
+# 太记是如何做本地持久化的 #太微原理 @林一二
+https://dwz.tax/m9Fa
+# 使太微更易用 #欢迎来到太微！ @Miao @马不前
+https://dwz.tax/ooy0
+> 通过 cn 聚合 -p 2 查看更多结果，或 -c 12 来增加返回量
+中文教程 搜索完毕，欢迎下次光临
+
+
+很久很久以前，在一条河流里，生活着许多许多的小鱼儿（Tiddlers），它们快活地在故事河（Story River）里游来游去。这些小鱼儿每一个都有自己的名字（条目名），自己的种类（内容类型），它携带的信息组成了鱼儿美丽的身体与骨架，附加的字段构成了它美丽的鳞片。

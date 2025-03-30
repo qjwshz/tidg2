@@ -1,0 +1,13 @@
+class: journal
+created: 20240510075402033
+modified: 20240807121630488
+tags: time\act
+title: ediary-10th 五月 2024
+tmap.id: 1259024d-5899-4f99-ad5b-8cdd7e6ea22e
+
+
+HTML是流动的，不分页。PDF基于印刷思维，是要强制分页面的。网页最好还是存HTML和md，PDF是最差的。
+内容衔接和页面分布就不说了。从PDF里面提取图片更蛋疼，等于重新转码一遍。页面提供的原始图片都会被强制压缩
+
+将codemirror相关禁用后，手机上方便按住进行拖选了
+

@@ -1,0 +1,9 @@
+created: 20241019011511073
+modified: 20241019011604890
+tags: AI
+title: AI提示词
+
+2024-10-18  推荐提示词, 会飞的用ChatGPT4, 国内最好用Kimi chat, 国内在文字搜集和提炼总结上, 其他大模型都不太行
+I want you to act as a Wikipedia page and respond in Chinese. I will give you the name of a topic, and you will provide a summary of that topic in the format of a Wikipedia page. Your summary should be informative and factual, covering the most important aspects of the topic. Start your summary with an introductory paragraph that gives an overview of the topic. My first topic is [主题]
+用这个提示词可以直接像维基一样, 高密度知识唰唰的往外冒. 哪个术语名词知识点不明白就继续查.
+

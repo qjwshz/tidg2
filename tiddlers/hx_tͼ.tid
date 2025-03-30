@@ -1,0 +1,21 @@
+annotate-colour: dodgerblue
+created: 20240128130102250
+difficulty: 3.9899999999999998
+due: 20240510111812428
+elapsed_days: 0
+lapses: 0
+last_review: 20240504111812428
+modified: 20240809102032090
+reps: 1
+scheduled_days: 6
+stability: 5.8
+state: 2
+tags: yy-hx_
+title: hx_t图
+tmap.id: 1be756c6-d783-4a22-9c99-d88583b65888
+
+2024-01-28 pdf批量转图片，已集成到tmd中，可以方便唤出，用得是imagemagic工具。2024-05-04　xiaoyao的功能汇总作为第二菜单，非常给力
+
+2024-01-29 PictureCleaner.exe不仅有漂白功能,还有禁用后,光使用调节纠正拉伸功能.效果不错.用于行驶证排版.
+
+2024-01-29　白描识别表格可以,也许是联网的,未在断网下测试.但只能一张一张来.所以abbyy的一哥地位暂也未倒闭.它可以批量.只要源图凑合,效果也还成,均已测试. 2024-08-07 白描识别表格确实没得说。

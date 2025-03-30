@@ -1,0 +1,20 @@
+created: 20231112055620886
+difficulty: 5.1045267970246115
+due: 20231117083326799
+grade: 1
+history: [{"due":"20231114084932430","interval":0,"difficulty":5,"stability":1.05,"retrievability":1,"grade":-1,"lapses":0,"reps":1,"review":"20231113084932430"}]
+interval: 1
+lapses: 0
+modified: 20231123152344182
+reps: 2
+retrievability: 0.9045267970246111
+review: 20231114083326799
+stability: 3.0466963066680397
+tags: ? !
+title: path递进集合
+
+
+
+<$list filter="[regexp:title[/path]!sort[created]]">
+
+

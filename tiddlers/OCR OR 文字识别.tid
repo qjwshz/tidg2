@@ -1,0 +1,35 @@
+created: 20230817050347448
+modified: 20240706050029097
+tags: para/area 600
+title: OCR OR 文字识别
+type: text/vnd.tiddlywiki
+
+2024-07-06 最开始还是cajviewer，本科时分2008-2012年，勉强可识别，小范围。后面adobe,abbyy，天若等粉墨登场。
+
+水很深，可用品琳琅满目。
+
+Adobe Acrobat Pro DC 提供了一个卓越的 OCR 工具.
+
+
+离线的abbyy，天若开源，Umi-OCR.Rapid v1.3.4-alpha.1
+
+在线的飘大厂。
+
+PDF.Architect   OCR.是一款轻量的pdf，群友提及。
+PandaOCR（图片转文字识别软件）.
+
+pandaocr来搜图，不仅可用来识别，还可用来识图。功能较宽泛。
+	从最开始的cajviewer中的简陋ocr，到后面强大的abbyy离线，再到百花齐放的天若ocr在线，离线。以及目前在用的，D:\program\Umi-OCR.Rapid v1.3.4测试版\Umi-OCR 文字识别.exe ，离线的后起之秀。案记索图哈哈~
+	
+
+在github上更新着呢，最新版支持win7了。
+
+2023-09-26 真是不赖啊，白描的桌面版用来识别表格的话，妥妥的。但可能 是要联网的。
+
+ocr，普通文本识别，表单表格识别，后者可用abbyy或pdfxchange editor另存取为doc,xks文档测试（如果文字可复制），数字类型表格识别方面，白描是个不错方式。
+
+[[tctc--attach]]
+
+
+f:https://github.com/hiroi-sora/Umi-OCR/
+

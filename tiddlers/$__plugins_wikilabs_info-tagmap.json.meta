@@ -1,0 +1,11 @@
+author: Mario Pietsch
+core-version: >=5.1.0
+dependents: 
+description: Adds a Tag-Map tab to the tiddler info section
+list: readme license history
+name: Info TagMap
+plugin-type: plugin
+stability: STABILITY_2_STABLE
+title: $:/plugins/wikilabs/info-tagmap
+type: application/json
+version: 0.2.2

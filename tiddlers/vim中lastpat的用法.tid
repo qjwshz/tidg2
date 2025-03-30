@@ -1,0 +1,62 @@
+created: 20231018051933276
+modified: 20231018051956704
+tags: sj神
+title: vim中lastpat的用法
+
+
+[[vim:一直被模仿]]
+Ez 2023/1/10 11:28:36
+
+选择嘛，举个例子好了，想要复制双引号里面的内容，那就yiu
+
+Ez 2023/1/10 11:28:48
+
+三个字母是三个意思
+
+Troy_daniel 2023/1/10 11:28:48
+
+致良知·明静
+
+@Troy_Daniel 你用啥
+
+@致良知·明静 www.    xhydh12    .top
+
+Ez 2023/1/10 11:29:28
+
+第一个字母y是复制，还可以c，d，v
+
+Ez 2023/1/10 11:29:52
+
+第二个字母是i，表示内部，还可以a，表示外部
+
+Ez 2023/1/10 11:30:26
+
+然后第三个字母u，就是刚刚这一段代码增强的部分了。
+
+Ez 2023/1/10 11:40:49
+
+至于第三个字母的可选就多了，你可以在vim中:help text-object 看到有这些
+
+Ez 2023/1/10 11:41:29
+
+aw iw aW iW as is ap ip a] a[ i] i[ a) a( ab i) i( ib a> a< i> i< at it a} a{ aB i} i{ iB a" a' a` i" i' i`
+
+Ez 2023/1/10 11:43:24
+
+然后再加上 我lastpat.vim 中增强的这几个 / ?  d T m P l u x f y k  每个都可以加上i和a
+
+
+
+"搜索结果lastpat: / ?
+"日期date 时间time : d T
+"两数字之间dig.dig : m
+"php代码 : P
+"行Line : l
+"双引号quote : u
+"单引号quotex : x
+"方括号BracketsF : f
+"圆括号BracketsY : y
+"大括号Braces : k
+
+lastpat.vim的用法经ez讲授，清楚了些。
+

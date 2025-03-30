@@ -1,0 +1,9 @@
+created: 20250219041254639
+modified: 20250219041436654
+tags: 3p-android
+title: mixplorer如何与alist结合起来用呢？
+
+
+用ez的指导来说，那个手机上mixplorer怎么与电脑端的alist结合起来呢?上次看聊天记录是通过webdav服务。mixplorer版本已经升级到6.684了？
+
+你就正常在mix中添加一个存储器，然后选webdav，然后填alist的地址就好了。但注意，alist它给你什么，那就是什么，不要自己猜。只是mixlporer新建webdav时，默认就将Httpsl输好了，我只顾着将数字ip弄进去。没注意观察

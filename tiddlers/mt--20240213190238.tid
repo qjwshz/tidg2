@@ -1,0 +1,32 @@
+created: 20230804102032012
+difficulty: 4.918681059277962
+due: 20240608110244730
+grade: 1
+history: [{"due":"20231101034503971","interval":0,"difficulty":5,"stability":2,"retrievability":1,"grade":-1,"lapses":0,"reps":1,"review":"20231030034503971"},{"due":"20231129103220994","interval":10,"difficulty":4.79049,"stability":19.657456432345345,"retrievability":0.5904900000000001,"grade":1,"lapses":0,"reps":2,"review":"20231109103220994"},{"due":"20240113122110714","interval":21,"difficulty":4.884037026931053,"stability":43.71806751398676,"retrievability":0.8935470269310526,"grade":1,"lapses":0,"reps":3,"review":"20231130122110713"}]
+interval: 75
+lapses: 0
+modified: 20240213110244730
+reps: 4
+retrievability: 0.8346440323469093
+review: 20240213110244728
+stability: 116.36329448770424
+stream-list: 
+stream-type: default
+tags: 日志 太记|太微|墨屉 ?
+title: mt--20240213190238
+
+太记2023年08月04日
+太微，tiddlywiki，历史悠久，相比[[siyuan etc新型双链]]来说，某些方面理念早已具备，丝毫不落后，这个与[[sm--20240213190101]]倒是相似。
+
+[[0001b mt]] 与太记，TidGi，则是其中第三方定制的杰出典范。
+
+2023-08-04，测试太记，得出:
+
+win7能用到的tidgi的最新版本号为0.7.12-prerelease2，这也是一个个降版本得出来的，目前最新是0.8.X。正如群友所说，
+
+> 这还是有些惨的，能用win10或win11更好，因为太记未来加的功能都会在这基础之上。
+
+2023-11-30 换成另一种形式的http服务，架设本机，方便外网访问或同一局域网中访问，等若手机上的webdav http转为电脑上的go写好的twserver_0.4_windows_amd64，效果不错。
+
+2024-02-13 所以转向单文件版，足矣。
+

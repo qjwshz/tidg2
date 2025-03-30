@@ -1,0 +1,75 @@
+created: 20230617083711408
+modified: 20241004095613831
+tags: para/area $:/tags/Commander/Working 1t
+title: totalcommander-tctc
+type: text/vnd.tiddlywiki
+
+tc当然是最新的,与vim可排并列第一。
+
+2024-10-04  tc中用快捷方式也成，搜索下快捷方式，能否ev中展示。十年就尝试过这种方式，效果还不错。(240706)
+
+
+2023-10-08
+【软件行家】米斯特亲 16:14:09
+@Ez  ez，咨询个事情。在备注中打星号的时候，是需要第一步按ctlr+z打开备注框的吗？   我以前隐约记得直接在文件列表选中文件，按alt+3就给它加上三星备注了。
+
+> 已经通过在capsez中写简易的的ahk搞定了。
+
+【软件行家】米斯特亲 16:14:55
+现在按alt+1-9,对应的是切换到tc的1-9个标签. 。 咋感觉这是vim中的定位方式，在tc中也是沿袭了么？
+
+> tc中的keyshortcut中绑定至对应快捷键上了。
+
+
+2023-09-11 如果ev中双击跳转至tc中被提示，无法找到.\tc路径，则一要看capsez是否绿化，另一个则打开顺序，先开tc，再开ev1.5.自动开启时可能ev更抢先了。验证有效。
+
+无心插柳柳成荫，ntfs-diz插件居然可以读取dte的tag,memo了，都是stream文件信息流。外加个counts，计数的。
+
+ez版tc中，待验证，alt+y,alt+k 分别代表移动，拷贝。要顺手很多。alt+r说是重命名。可测试下。 分号引导，nmjkhg之类，用起来。 用tc的基本不去用C-V。shift+f5或6均可替代，是个更好的习惯。 查重导为列表后，用ctlr+=来进行选择。
+tc的命令行 印叶杠捞Enter尸 动类似cmd /c命令, 执行命令 后不保留窗口; 按 Shift+Enter启动, 类似cmd / k命令, 会保留窗口。 就是这个 @林蝉 搜索字符串前添加ev:或ed , 即可使用完全的everything语法了。 ev:或ed:的区别查看tc帮助
+
+
+
+可以用逗号拼接多个命令比如cm_About,cm_HelpIndex
+
+所有填写命令的地方都可以填外部程序/脚本/内部命令
+
+可以自定义更复杂命令(usercmd.ini) 参考传送门
+
+命令内置的参数说明:
+
+%P 当前侧视图所在目录路径
+
+%T 目标侧视图所在目录路径
+
+%N 当前选中的文件或者目录名称(第一个)
+
+%S 当前所有选中的文件或者目录名称(多个名称 以空格分开)
+
+%L 当前所有选中的文件或者目录完整路径写到一个临时文件中 返回的是该临时文件的路径
+
+比如：
+
+[em_SrcSortByFileName]
+
+button=
+
+cmd=cm_SrcByName,cm_SrcUnsorted
+
+param=
+
+[em_CD2DesktopEX]
+
+button=
+
+cmd=em_CD2Desktop,em_SrcSortByFileName
+
+param=
+
+Alt+左箭头 后退到上一个历史路径
+
+Alt+右箭头 前进到下一个历史路径
+
+Alt+下箭头 显示当前历史路径
+
+Alt+F1/F2 切换左侧/右侧视图盘符

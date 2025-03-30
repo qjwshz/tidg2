@@ -1,0 +1,15 @@
+created: 20241205023513824
+modified: 20241205035730946
+title: 如何在ev中进行相对精确匹配搜索？
+tmap.id: 8e041173-5789-4f3c-af52-4563ac695ff0
+
+folder: ww: yegl
+
+解释：首字可分别指定文件file或文件夹。ww代表全字匹配。 加入混沌的插件或最新1.5测试版，支持拼音首字母搜索。
+
+241130 完成了dtei,dtew,dtea，其中i文件夹用ev跳转到所在后，可搜索备注可视化斜杠快搜，前提是格式为ansi格式。可新建再BC比较后覆盖等。
+
+<!c: alternate-data-stream-ansi:"<文件>+"  alternate-data-stream-ansi:search: !alternate-data-stream-ansi:zone> | <alternate-data-stream-ansi:search:>   
+2024-11-30 以上将中括号中的文件去除了,但知道是这么写的.指定精确搜索.
+
+讲得DTE筛选器的妙用。

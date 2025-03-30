@@ -1,0 +1,10 @@
+caption: 如何辨别qt与gtk呢？
+created: 20250203052651474
+modified: 20250203052813182
+tags: $:/paras/20250130022617667
+title: $:/paras/20250130022617667/005
+type: 
+
+从典型应用看，qt的：kdt桌面环境，vlc媒体播放器，qbittorrent等。对windows环境相对友好。
+
+而GTK则为：gonme桌面环境，gimp图像编辑器，gedit文本编辑器。

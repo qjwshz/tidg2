@@ -1,0 +1,30 @@
+created: 20240329045704737
+modified: 20240619151432446
+title: 1s_1t_vimwiki-zettel
+
+2024-03-11
+time gwgz 
+
+GitHub - michal-h21/vim-zettel: VimWiki addon for managing notes according to Zettelkasten method
+https://github.com/michal-h21/vim-zettel/tree/master
+
+
+GitHub - junegunn/vim-plug: :hibiscus: Minimalist Vim Plugin Manager
+https://github.com/junegunn/vim-plug
+
+以上，还是挺好用的，就是在升级或下载时需要架梯。
+
+从ctlrp支持中文说起，很早以前就没能解决leaderF，0311左右搞定了leaderF，前后折腾了些时间，确实好用。但vim-zettel内置的统一搜索也挺香。
+
+已解决的问题
+Error: LeaderF requires vim compiled with +python or +python3 · Issue #151 · Yggdroot/LeaderF
+https://github.com/Yggdroot/LeaderF/issues/151
+	Python Release Python 2.7.7 | Python.org
+https://www.python.org/downloads/release/python-277/
+走的弯路
+Releases · vim/vim-win32-installer
+https://github.com/vim/vim-win32-installer/releases
+
+proxifer与架梯要同时，前者设置git.exe走代理，才能正常让plugin插件工作，vimwiki中。
+
+

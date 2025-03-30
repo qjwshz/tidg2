@@ -1,0 +1,30 @@
+annotate-colour: dodgerblue
+created: 20240127050645403
+difficulty: 3.9899999999999998
+due: 20240510111646587
+elapsed_days: 0
+lapses: 0
+last_review: 20240504111646587
+modified: 20240504111645656
+reps: 1
+scheduled_days: 6
+stability: 5.8
+state: 2
+tags: howto 1s_3p
+title: 修复dll弹错？
+tmap.id: 2e7ee7c2-7cde-40c2-9ca3-e531c60492bd
+
+2024-01-27
+法一，手动
+接搜索栏输入CMD后（不要立即回车进入），按住CTRL+SHIFT+ENTER键可直接进入管理员模式命令行。
+在打开的dos命令窗口中，输入【cd\】,让当前目录显示【c:】
+再输入【cd windows】，进入【C:\WINDOWS】目录
+再输入【cd syswow64】，进入【C:\WINDOWS\syswow64】目录
+输入【regsvr32 aaa.dll】，注册成功！
+法二，半自动
+一健智能修复DLL助手修复工具（强烈推荐）
+先进入“系统DLL修复”功能，点击右下角“查找DLL”功能。切换，进入相应的查找页面
+下载的64位的api-ms-win-core-psapi-ansi-l1-1-0.dll放到 C:\Windows\System32 
+32位的api-ms-win-core-psapi-ansi-l1-1-0.dll放到 C:\Windows\SysWOW64
+当然你复制文件的时候，建议你核对一下自己的系统（系统是属于32bit还是64bit，以免造成偏差）
+然后打开"开始-运行-输入regsvr32 api-ms-win-core-psapi-ansi-l1-1-0.dll"，回车即可解决错误提示。

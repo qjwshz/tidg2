@@ -1,0 +1,14 @@
+created: 20240803093350642
+modified: 20240803102054233
+tags: 致信直报用措施九条 任务
+title: abbyy转图片
+tmo_actualEndTime: 20240803102054226
+tmo_actualStartTime: 20240803093903285
+tmo_priority: High
+tmo_taskState: Completed
+
+pdfxchange提取为两张图片，再识别为表格。两张数量不多的话，白描可能也挺好的
+
+2024-08-03 abbyy识别图片，图片分辨率太大了，保存为word提示错误。改为提取pdf。再测试下。或者用图片缩减分辨率。依旧提示页面太大。改为分辨率缩小下。
+
+--20240803182024 用得tmd搞定，缩小为A4大小，原来的为10几厘米的，光将高清图片转为pdf，没注意大小了。

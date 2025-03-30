@@ -1,0 +1,14 @@
+created: 20241205074316615
+modified: 20241208040402131
+title: 常用的cmd命令有哪些呢？
+tmap.id: b983dff5-d5c1-4c6f-bcaa-a814d37607b3
+
+2024-12-05 
+diskmgmt.msc 磁盘管理命令
+查看账户用户，家庭标准版用不了。 lusrmgr.msc ，  
+查看服务，services.msc  
+查看组策略，gpedit.msc  
+查看系统信息，systeminfo  
+查看注册表，regedit  
+查看启动项，shell:startup 或msconfig  
+查看画图，计算器等，calc,mspaint  

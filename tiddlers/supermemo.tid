@@ -1,0 +1,36 @@
+created: 20231116102106719
+modified: 20231116104044239
+tags: jh集合
+title: supermemo
+
+<$list filter="[regexp:title[supermemo]![supermemo]!sort[created]]">
+
+
+
+---
+!!! <$link><<currentTiddler>></$link>
+
+ {{!!text}}
+
+</$list>
+
+
+
+
+优秀参考文献、引用列表：
+
+SuperMemo—渐进学习最前沿！ - 知乎  叶峻尧
+https://www.zhihu.com/column/c_1308886122672484352?utm_id=0
+
+SuperMemo tips - 收藏夹 - 知乎
+https://www.zhihu.com/collection/797904700?utm_id=0
+
+SuperMemo 自动化体系 - 知乎
+https://www.zhihu.com/column/c_1658679141527486464?page=1&utm_id=0
+
+知识库：ABC of SuperMemo 19 制作日志 - 知乎
+https://zhuanlan.zhihu.com/p/662556727?utm_id=0
+
+
+
+

@@ -1,0 +1,29 @@
+created: 20250215091759625
+modified: 20250215091858013
+title: ventoy中装了哪些镜像？
+tmap.id: 1cd89e3c-146f-4568-bea1-03628fdea188
+
+
+uos-livetools-desktop-20240601_L420-L540.iso
+
+deepin-live-cd-commiunty-2.0.0-debian-core_amd64.iso
+
+deepin-live-cd-commiunty-2.0.0-debian-core_arm64.iso
+
+plucky-desktop-arm64.iso
+
+deepin-desktop-community-23-amd64.iso
+
+deepin-desktop-community-23-arm64.iso
+
+debian-12.8.0-arm64-netinst.iso 网络安装版，已删除
+
+puppy-bionicpup64-8.0-uefi.iso 无中文。可考虑删除
+
+51nb_PE.iso
+
+Hikari_PE_X64_V8.53_R4_SC.iso
+
+Win10PE_Ver.3.4-飞扬时空.iso
+
+

@@ -1,0 +1,30 @@
+created: 20240209051524870
+difficulty: 4.287171572942229
+due: 20240508044526891
+grade: 1
+history: [{"due":"20240214040132030","interval":0,"difficulty":3.7478003092274337,"stability":1.05,"retrievability":1,"grade":-1,"lapses":0,"reps":1,"review":"20240213040132028"},{"due":"20240221041624572","interval":2,"difficulty":3.765969035763036,"stability":5.967448622216206,"retrievability":0.8181687265356021,"grade":1,"lapses":0,"reps":2,"review":"20240215041624570"},{"due":"20240505112321351","interval":79,"difficulty":4.213848179409476,"stability":0.7778591317158038,"retrievability":0.2478791436464396,"grade":0,"lapses":1,"reps":1,"review":"20240504112321350"}]
+interval: 1
+lapses: 1
+modified: 20240505044526892
+reps: 2
+retrievability: 0.8733233935327525
+review: 20240505044526890
+stability: 3.170329930606357
+tags: time/act 太记|太微|墨屉 ?
+title: 20240209-ediary筛选空内容
+
+
+![text[]!sort[created]]
+
+左右各加三个大括号即可显示效果
+
+
+
+
+[!text[]!prefix[$:]regexp:title[ OR ]!sort[created]]
+
+{{{![text[]!prefix[$:]!sort[created]]}}}
+
+
+以上就好像将没有实际内容的给罗列出来了。 并排除了系统条目
+

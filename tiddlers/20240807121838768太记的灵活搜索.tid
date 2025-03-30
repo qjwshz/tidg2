@@ -1,0 +1,22 @@
+created: 20240807121838785
+modified: 20240809102616338
+tags: .
+title: 20240807121838768太记的灵活搜索
+type: text/vnd.tiddlywiki
+
+
+
+{{{[regexp:title[2024]regexp:title[\\ 1]!sort[created]]}}}
+
+<<list-links "[!prefix[$:]regexp:title[典范]!sort[created]] " field:name >>
+
+2024-08-07,以下经测试
+
+[regexp:title[\\ 1]] 可以用来匹配，批量创建后重复条目，注意里中空格。但没有1后，匹配不到最后带斜杠的条目。此时，可以通过前缀，后缀。
+[suffix[\]]  prefix[--2024]等来确定。
+
+2024-08-09 这个也嵌入了快捷模板cltr+s中即可选取用，也可手写。
+
+
+
+

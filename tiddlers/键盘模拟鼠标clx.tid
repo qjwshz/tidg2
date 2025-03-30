@@ -1,0 +1,11 @@
+created: 20240929105223784
+modified: 20240929113804599
+tags: 
+title: 键盘模拟鼠标clx
+
+0914向雪星反映下头脑风暴无法使用了，2024-09-29退回3.12版。最新3.14略有问题
+
+2024-09-29 CLX长按锁定模式会在新版本屏蔽，
+旧处代码在 CapsLockX-Core.ahk 里搜 if ( A_TickCount - CapsLockPressTimestamp > 1000) { 可按需修改
+
+提取里面核心部分作品为snomouse

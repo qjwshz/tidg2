@@ -1,0 +1,5 @@
+code-body: yes
+title: Excerpt
+tmap.id: 193353ff-248e-4565-8f3a-bfa8bdbed31d
+
+{{{ [{!!title}split[/]last[]] }}}

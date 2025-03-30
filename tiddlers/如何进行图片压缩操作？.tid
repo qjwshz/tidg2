@@ -1,0 +1,13 @@
+created: 20241223043630002
+modified: 20241223043824024
+tags: 
+title: 如何进行图片压缩操作？
+tmap.id: 1cdd4234-7341-4894-8e6b-f017a6a65f8c
+
+压缩操作图片最常见的，irfanview，单个与批量均可胜任。而imagine则是更直观观察被压缩后的体积。也支持批量。但是eletcron内核，win7上用最新版可能需要用到，最好是转win10系统上。
+
+vxKexSetup-win7兼容_Release_1_1_1_1375
+
+
+Created by Meowtec
+https://github.com/meowtec/Imagine

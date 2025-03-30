@@ -1,0 +1,15 @@
+created: 20231014034302858
+modified: 20240926021431112
+tags: project 虚拟集合
+title: 2023-10-14-11-43GS聚集集合
+
+
+<$list filter="[regexp:tags[gs_]]">
+
+---
+!!! <$link><<currentTiddler>></$link>
+
+ {{!!text}}
+
+</$list>
+

@@ -1,0 +1,20 @@
+created: 20211111055327730
+difficulty: 4.44726558763971
+due: 20240223045436211
+grade: 1
+history: [{"due":"20230630050551663","interval":1,"difficulty":5,"stability":2,"retrievability":1,"grade":-1,"lapses":0,"reps":1,"review":"20230629050551663"},{"due":"20230912024723289","interval":29,"difficulty":4.417028309149895,"stability":45.8720175505013,"retrievability":0.21702830914989518,"grade":1,"lapses":0,"reps":2,"review":"20230728024723289"}]
+interval: 81
+lapses: 0
+modified: 20240504112735141
+reps: 3
+retrievability: 0.8302372784898147
+review: 20231017045436211
+stability: 129.23084402575213
+tags: 如何进行渐进阅读？ . ? !
+title: 导入
+type: text/vnd.tiddlywiki
+
+编辑或新建一个条目，添加`.`标签将其设为''摘录条目''。此''摘录条目''可以通过点击侧边栏上的 {{$:/plugins/oflg/fishing/fishingfloat}} 中的''{{$:/language/fishing/new}}''组开始学习。
+
+
+或者直接从外部导入阅读材料。目前支持 [[导入 TWPUB 电子书|导入 TWPUB 电子书子插件]]。

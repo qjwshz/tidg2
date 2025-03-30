@@ -1,0 +1,32 @@
+created: 20230617083306452
+difficulty: 4.496807631577037
+due: 20250223112545604
+grade: 1
+history: [{"due":"20230701051129423","interval":0,"difficulty":5,"stability":2,"retrievability":1,"grade":-1,"lapses":0,"reps":1,"review":"20230629051129423"},{"due":"20230912024927232","interval":29,"difficulty":4.417028309149895,"stability":45.8720175505013,"retrievability":0.21702830914989518,"grade":1,"lapses":0,"reps":2,"review":"20230728024927230"},{"due":"20240223050641987","interval":81,"difficulty":4.44726558763971,"stability":129.23084402575213,"retrievability":0.8302372784898147,"grade":1,"lapses":0,"reps":3,"review":"20231017050641987"}]
+interval: 200
+lapses: 0
+modified: 20240504112545604
+reps: 4
+retrievability: 0.8495420439373267
+review: 20240504112545603
+stability: 295.4600881103034
+tags: tools/office 600 1s_tools ?
+title: --20230617163317office启动参数
+
+/s：使用安全模式启动 Excel  
+
+/e：使用此参数后，将强制 Excel 在启动时不显示启动画面，也不创建新工作簿（Book1.xls）
+/n：启动 Word 后不创建新的文件。 
+
+/a：禁止插件和通用模板自动启动。  
+
+/m：禁止自动执行的宏。 
+
+/q：不显示启动画面。  
+
+menu=无插件运行WORD(速度贼快!)
+
+param= /a /m /q %P%S.
+RA,tc内部关联，工具栏上，capsez中run启动后跟参数。wps貌似没找着。经试验，a参数会造成页码无法赋予。一般用到m或q参数
+
+wps的邮件合并，对数据源格式，不能是xlsx。用xls则可以。实在是怪事。 

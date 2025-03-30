@@ -1,0 +1,17 @@
+created: 20240213140818960
+modified: 20241107104937209
+tags: 1t
+title: Runany
+
+[[0001tools]]
+
+如果出现权限不一致，各种弹出时， #SingleInstance,Force~运行替换旧实例 给注释掉。
+
+Runany的插件库与插件文档
+https://hui-zz.github.io/RunAny/#/plugins-help
+
+RunAny文档
+https://hui-zz.github.io/RunAny/#/plugins-list
+
+240725 效率集插件，类似runany的批量搜索打开。追新闻屁。此外，就是浏览器上的聚合搜索扩展。[[wai]]
+

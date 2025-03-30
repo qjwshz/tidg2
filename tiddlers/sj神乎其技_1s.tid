@@ -1,0 +1,42 @@
+created: 20230617100431828
+modified: 20240609034631005
+tags: 
+title: sj神乎其技_1s
+
+!! excel
+数据有效性，清空范围，或者配置选项。
+
+
+!! hx_
+
+2024-05-14 图片，颁正。禁用快速算法即可，无须漂白.用到的是PictureCleaner-v1.1.4.0411-免费版这一个。批量压缩的话，github上下载的Imagine.exe不二选择。ifranview有时候也能用得上。
+
+
+!! tc
+
+2024-05-13 在pary与迈步从头越指导下，nircmd execmd "d:\totalcmd\Tools\Scripts\RenameUseClip.ahk"　　这样笨办法，扔到了工具栏，或者也可以写入usercmd中，正常运行，弹出让选择。其中，AI访问出来的，是execmd 而问出来的exec并不起作用
+
+!! vim
+
+搞定了面批量添加数字，先用最前面加星号替代，最后替代星号。均写在vimrc中有了。再验证下
+
+批量替换。
+args argdo
+前后倒序：g/^/m0
+excel
+
+=(A1/1000+83600)/86400+70*365+19。微信手机端保存图片，数字串转为时间戳。
+
+2023-06-25  pandoc -f docx -t html extract-media . -o R语言读文件防止行名、列名中有的字符变成点号.html R语言读文件防止行名、列名中有的字符变成点号.docx
+
+extract-media的意思是把多媒体文件解析到xxx位置，本例中为解析到当前目录
+
+注册表中修改关联打开,不如在tc中系统（外部关联）为gvim程序。外加F4menu，更是如虎添yi  
+assoc .mkd=mkdfile
+gvim作默认程序，且要多标签。。。文档在gvim中多标签打开当然是非常重要的。
+d:\totalcmd\tools\vim\gvim.exe remote-tab-silent %1
+
+!! 浏览器
+
+无图小书签 :sj:
+javascript:(function(){var img=document.querySelectorAll("img");if(window.noneImg){for(i in img){img[i].style.display="block";window.noneImg=false}};window.noneImg=true;for(i in img){img[i].style.display="none";}})();

@@ -1,0 +1,15 @@
+created: 20230617101027780
+difficulty: 4.731352765716388
+due: 20240910112740962
+grade: 1
+history: [{"due":"20230721091348426","interval":0,"difficulty":5,"stability":2,"retrievability":1,"grade":-1,"lapses":0,"reps":1,"review":"20230719091348426"},{"due":"20230820094143378","interval":11,"difficulty":4.760188000665848,"stability":21.359944146937778,"retrievability":0.560188000665848,"grade":1,"lapses":0,"reps":2,"review":"20230730094143377"},{"due":"20240206044701022","interval":79,"difficulty":4.637463543365404,"stability":111.77247634478367,"retrievability":0.6772755426995553,"grade":1,"lapses":0,"reps":3,"review":"20231017044701022"}]
+interval: 119
+lapses: 0
+modified: 20240917160152597
+reps: 4
+retrievability: 0.8938892223509846
+review: 20240213112740960
+stability: 210.24936211533142
+tags: para/area wechat ?
+title: year2022-qwertc-wechat
+type: text/x-markdown

@@ -1,0 +1,18 @@
+created: 20241230101706990
+modified: 20241230120612803
+title: supermemo的常用快捷有哪些？
+tmap.id: b6b94524-8af2-4882-a401-0218d0e77bed
+
+
+常用快捷键
+Ctrl + ↑：查看上一级，通常是你摘录出来的摘录卡片和问答卡片的原文。
+Alt + ←：查看上一张卡片，如果你做了摘录或挖空，上一张卡片就是你刚刚摘录或挖空的卡片。
+Ctrl + Shift + M：为当前卡片选择模板
+Ctrl + Shift + R：为当前卡片设置下一次查看的时间（一般不用，除非你觉得这个卡片很重要或者很不重要）
+Ctrl + Shift + 1：将选中内容统一格式。例如，一段文字为 123456，选中 1 到 6，按下组合键，文字将统一格式，变成 123456。
+
+
+https://www.kancloud.cn/ankigaokao/incremental_learning/2450594	
+
+帮助文档
+https://www.yuque.com/supermemo/wiki

@@ -1,0 +1,8 @@
+created: 20250306080636362
+modified: 20250306080743579
+title: index与match函数匹配需注意什么？
+type: text/vnd.tiddlywiki
+
+先match,一般要加0,实现精准匹配。再index。可以用连接号&实现拼接指标进行比对，达到独一。
+
+最早接触的是vlookup之类。

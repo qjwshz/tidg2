@@ -1,0 +1,16 @@
+created: 20240927111605971
+modified: 20240929022700833
+tags: $:/tags/Commander/Working 1t
+title: everything筛选器
+
+240923  ev1.5完全可替代1.4了，新增ads搜索，界面布局上也作了优化
+(.doc|.docx|.xls|.xlsx|.ppt|.pptx|.pdf|.chm|.html|.md dm:today) OR (dm:yesterday) !c:
+以上有待测试与观察
+
+.doc|.docx|.xls|.xlsx|.ppt|.pptx|.pdf|.chm|.html|.md (dm:today OR dm:yesterday)
+以上这个貌似今天的都没起作用
+
+以上的，改为
+
+.doc|.docx|.xls|.xlsx|.ppt|.pptx|.pdf|.chm|.html|.md dm:today OR dm:yesterday 或者 dm:today | dm:yesterday 均可起作用。
+

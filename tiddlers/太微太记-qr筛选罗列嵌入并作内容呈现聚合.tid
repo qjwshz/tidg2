@@ -1,0 +1,136 @@
+caption: qr筛选嵌入
+created: 20231013110711294
+modified: 20240929022700811
+tags: 太记|太微|墨屉 $:/tags/Commander/Working 1t
+title: 太微太记-qr筛选罗列嵌入并作内容呈现聚合
+
+!!亲测可行
+
+以下加两个中括号即可生效。
+
+list-links filter:[tag[000]sort[name]] field:name >>
+
+> 加了个field的匹配结果要更加全面些，涵义不明。t1017群友回复，说，代表的是，''显示给定的字段。''  太微，太记中一切皆字段。
+
+list-links filter:[tag[000]sort[name]]>>
+
+2023-10-14 ，以上是群友琢磨出来，自己取用的了。拿 来即用。
+
+
+list-links "[tag[600]!is[system]sort[title]]" >>
+> 以上，自己参谋这个那个，倒赤出来的。
+
+2023-10-13
+
+list-links "[regexp:title[^a00|^b00|^000|^100|^200|^300|^400|^500|^600|^700|^800|^900]!sort[title]]" >>
+
+
+是的，没想到regxp正则比较牛，只有正则才能连接或字符，并支持从首端匹配。
+
+list-links "[regexp:tags[a00|b00|000|100|200|300|400|500|600|700|800|900]!sort[title]]" >>
+--------------------
+
+!! 来自群友
+
+林一二，马不前，太记的帮助页面，条目。筛选出标签大于2个的条目。
+
+[all[tiddlers]!is[system]] :filter[tags[]count[]compare:number:gteq[2]]
+说明：
+
+[all[tiddlers]!is[system]] 限定条目为普通条目。
+
+compare:number:gteq[2]：判断数量大于2，可以自己修改。
+
+--------------------
+
+!! tips
+
+
+一是标签筛选并罗列出来，精确性要求较高，注意，如果改为tags则是全部罗列，中括号中留空。
+
+[tags[]!is[system]sort[title]]
+
+> 这个is[system]也可以加到最前，感叹号为否定或反向。
+
+二是嵌入符合标签的条目也可如此：
+
+{{{ [tag[XXX]] }}}
+
+
+三是呈现标签内容，以下写法参照太记中的帮助说明，拿来即用（主义），同样要求标签精确性。
+
+[regexp:tags[sj]]
+
+<$list filter="[tag[test]]">
+
+ {{!!text}}
+
+</$list>
+
+
+四是利用regexp来进行搜索结果模糊匹配并呈现搜索内容。比如： 牺牲一定精准性，扩大模糊匹配范围。还可以加上title.
+
+ [regexp:tags[yg/]] [regexp:title[sj]]  }}}
+
+ [regexp:tags[cards.]] }}}
+
+
+此外，针对条目的快速引用，中英文括号均可实现，在此基础上再两个中括号即可呈现内容(中括号要替代为大括号，或者直接点击工具栏上的嵌入或引用符号，两次以上即可切换)。批量的话可罗列后再借助gvim中编辑替代，也是个方式。所以标题，命名，事实上是非常重要的。      
+  
+[search:[太记/]!is[system]sort[title]]   搜索方面是受益于locator插件的用法说明中提及。  
+  
+> serach可实现模糊效果，但依旧无法匹配或，实现多个。因为它默认是全局范围内搜索。
+
+ 
+类似，还可扩充到字段搜索，如：[tag[Today]field:caption[hello]]，一切皆字段。
+
+
+
+
+五是呈现内容方面，search方式有一定局限性，默认是全局开搜，而且在条目内较卡，而试下regexp¹，配合标签或标题或其他限定字段，效果可以。
+
+
+标签类：先标题，再内容
+
+
+
+list-links "[regexp:tags[yg]!sort[title]]" 
+
+
+
+标题关键词类：
+
+
+list-links "[regexp:title[神]!sort[title]]" 
+
+
+
+
+list-links "[prefix:title[2021]!sort[title]]" >>
+
+
+> 前缀prefix、suffix后缀也可派上用场。
+
+
+
+
+参考文章
+
+⑴ TiddlyWiki Filter Expression：释放 TiddlyWiki 十倍威力的工具 - 知乎
+https://zhuanlan.zhihu.com/p/346647657
+
+⑵ 我們真的需要花時間去改良知識系統工具嗎？關於知識管理系統拖延症 | 點字記
+https://roulesophy.github.io/20230911-improving-note-taking-system/
+
+这是以上作者的博客。
+
+
+
+
+
+
+
+
+
+
+

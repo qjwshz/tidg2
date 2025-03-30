@@ -1,0 +1,17 @@
+annotate-colour: dodgerblue
+created: 20240925100236138
+difficulty: 3.9899999999999998
+due: 20241012063143306
+elapsed_days: 0
+lapses: 0
+last_review: 20241006063143306
+modified: 20240925100450510
+reps: 1
+scheduled_days: 6
+stability: 5.8
+state: 2
+tags: . 1s$
+title: 20240925100236131tc
+type: text/vnd.tiddlywiki
+
+2024-09-25 tc中的21xh，可结合quicker手动进行回顾。艾宾浩斯曲线排列。而vnote318最新版与启程还是冲突，容易卡崩，卡崩后需用systeminfor进程对启程服务进行restart。

@@ -1,0 +1,21 @@
+created: 20240619062207846
+modified: 20240926032708334
+tags: $:/tags/TextEditor/Snippet 虚拟集合
+title: 近些天示例
+type: text/vnd.tiddlywiki
+
+!! 排除了系统条目，前缀以$开头的
+<<list-links "[days[-7]!prefix[$]!sort[created]]" field:name >>
+
+
+
+
+
+
+
+
+
+
+
+
+

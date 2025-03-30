@@ -1,0 +1,24 @@
+background-color: #fff
+caption: a course
+color: red
+created: 20231204172218125
+icon: {{$:/core/images/video}}
+image: $:/heiban.png
+importance: 
+link: 
+linkcolor: 
+modified: 20231204172254235
+tags: Course Planning
+title: music-mv
+tmap.id: 3d3851a9-eefd-4d32-a832-0f23cbb29b3b
+
+!! 课程目录
+
+张敬轩，断点
+
+
+@@.list-tree
+
+
+
+@@

@@ -1,0 +1,15 @@
+created: 20231014114358361
+modified: 20231014114415679
+tags: 
+title: 2023-10-14-19-43聚集集合bwg
+
+
+<$list filter="[tag[bwg]]">
+
+---
+!!! <$link><<currentTiddler>></$link>
+
+ {{!!text}}
+
+</$list>
+

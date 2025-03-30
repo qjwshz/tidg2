@@ -1,0 +1,20 @@
+created: 20231006022841482
+modified: 20231006023136051
+tags: 
+title: ripgrep-强中更有强中手2023-10-06-1028
+
+基于Rg衍生出来的,ripgrep-all¹，支持pdf,office文档，但必须采用软件安装管理器
+下载。是从rg用法教程²中得知的。
+
+> Note that installing via chocolatey or scoop is the only supported download method. If you download the binary from releases manually, you will not get the dependencies (for example pdftotext from poppler).
+
+If you get an error like VCRUNTIME140.DLL could not be found, you need to install vc_redist.x64.exe.
+
+之所以无须扔system或windows中生效，可能是“只要与vim.exe”在同一路径下，它会识别，类同vim的插件一般，会读取索引某定位置。
+
+
+GitHub - phiresky/ripgrep-all: rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.
+https://github.com/phiresky/ripgrep-all
+
+文本搜索神器rg的使用教程 | Levon's Blog
+https://www.liuvv.com/p/868944ef.html

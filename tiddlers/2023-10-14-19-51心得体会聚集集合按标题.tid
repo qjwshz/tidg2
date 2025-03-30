@@ -1,0 +1,15 @@
+created: 20231014115124361
+modified: 20231014115243209
+tags: 
+title: 2023-10-14-19-51心得体会聚集集合按标题
+
+
+<$list filter="[search:title[xdth]]">
+
+---
+!!! <$link><<currentTiddler>></$link>
+
+ {{!!text}}
+
+</$list>
+

@@ -1,0 +1,15 @@
+created: 20231113130404370
+modified: 20231113135405692
+tags: 
+title: 231113-2104 -  @#&心得体会的集合
+
+<$list filter="[regexp:title[xdth]!sort[created]]">
+
+
+---
+!!! <$link><<currentTiddler>></$link>
+
+ {{!!text}}
+
+</$list>
+

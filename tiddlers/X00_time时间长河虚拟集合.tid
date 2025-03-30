@@ -1,0 +1,28 @@
+created: 20231030153020746
+modified: 20231031080742113
+tags: 
+title: X00_time时间长河虚拟集合
+
+<$list filter="[regexp:title[act|wai|mayb|mayd|somd|evd|psd|huig]!sort[created]]">
+
+
+
+---
+!!! <$link><<currentTiddler>></$link>
+
+ {{!!text}}
+
+</$list>
+
+
+
+!! 以下是按标签搜索罗列了  
+
+<$list filter="[regexp:tags[mayd]!sort[created]]">
+
+--
+!!! <$link><<currentTiddler>></$link>
+
+ {{!!text}}
+
+</$list>

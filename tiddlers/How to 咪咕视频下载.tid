@@ -1,0 +1,24 @@
+created: 20231231044317647
+linkcolor: 
+modified: 20231231045006765
+tags: Howto Uncategorized hx_se
+title: How to 咪咕视频下载
+tmap.id: b47de2f4-fe02-47c7-a8df-6a550ef4cdd1
+
+TC3k群中的大漠孤烟扔出个网址，询问谁能下载。
+http://m.miguvideo.com/mgs/msite/prd/verticalScreen.html?cid=895597206&sharefrom=miguvideoapp
+
+打开显示是咪咕视频。以上链接诡异的地方在于手机浏览器能正常打开，电脑端反而卡住了。（换另一无idm的电脑测试下）
+
+心血来潮尝试了下。原本想着alook的嗅探，via的嗅探。查看页面源代码，均未果。
+
+
+Troy_daniel与长河旭日分别用猫抓与火狐浏览器扩展“video downloadhelper”顺利完成下载。
+
+
+剩下就是验证的事情了。在验证前还贼心不死的分别试了you-get，yt-dlp（意外地发现在copycat的usertools下均集成有），但都未获支持。
+
+验证了猫狐，在kiwi browser上，成功检测出真实的m3u8链接，再放置浏览器扩展中的m3u8 online video extractor。
+
+
+

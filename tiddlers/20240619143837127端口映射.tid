@@ -1,0 +1,13 @@
+created: 20240619143837131
+modified: 20240619160134108
+tags: 
+title: 20240619143837127端口映射
+wysiwyg: yes
+
+电脑版，适用于太微的webdav，localhost:8080，路由器中映射为8585。而syncthing则8384,微力同步为8886。[[hx_w网]]
+
+互联网公网ip下：
+
+everything,8087。　triliumnote,37840 mybase server 8787  webdz 9678  tidgi(http server) 8585　siyuan 6808(默认)。
+
+对应的映射为：8087,37840,  8082(以使用说明，弹出窗口提示为准)　 (9999) (太记的貌似是随机)　

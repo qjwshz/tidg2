@@ -1,0 +1,30 @@
+created: 20240330062908404
+modified: 20240331040732222
+tags: 
+title: 1s_3p_android
+
+
+2024-02-17 还带了个终端。明个继续续写termux，mt的终端可平替它，前者玄乎其玄，b站上的视频讲解不甚接地气
+
+
+由于目标计算机积极拒绝，无法连接(10061) #876
+Open
+Aegis513 opened this issue on Nov 21, 2023 · 2 comments
+Comments
+@Aegis513
+
+Aegis513 commented on Nov 21, 2023
+手机在使用过usb后可以无线连接，但在手机息屏后就无法再通过ip进行无线连接。
+点击无线连接就显示：AdbProcessImpl::out:cannot connect to 192.168.0.101:5555: 由于目标计算机积极拒绝，无法连接。 (10061)
+github 上很多解决方法都有试过
+abd kill-server
+adb tcpip 5555.....
+
+不知道有没有个可以确实解决的方法 
+
+
+
+2024-02-16 termux中的find命令或者grep命令或者什么的，测试下 finde ./ -name "*XX*.doc*"，done mt后台加固定，需通过手机管家中优化加速中进行设定。至少小米，红米手机是这样的。
+
+
+[[3p-android]]

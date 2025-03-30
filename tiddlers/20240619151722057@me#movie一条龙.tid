@@ -1,0 +1,20 @@
+created: 20240619151722062
+modified: 20240619151856216
+tags: 
+title: 20240619151722057@me#movie一条龙
+
+!! 以下是按标题正则并排除@符号抽象，后者用于集合，一条龙。搜索罗列了  
+
+<$list filter="[regexp:title[movie]!regexp:title[@]!sort[created]]">
+
+
+
+---
+!!! <$link><<currentTiddler>></$link>
+
+ {{!!text}}
+
+</$list>
+
+
+

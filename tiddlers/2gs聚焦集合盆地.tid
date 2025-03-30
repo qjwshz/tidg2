@@ -1,0 +1,13 @@
+created: 20240331122843388
+modified: 20240925144915342
+tags: 虚拟集合
+title: 2gs聚焦集合盆地
+
+!! 1g
+
+<<list-links "[!prefix[$:]regexp:title[1g]!sort[created]] " field:name >>
+
+
+!! 1s
+
+<<list-links "[!prefix[$:]regexp:title[1s]!sort[created]] " field:name >>

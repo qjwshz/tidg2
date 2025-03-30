@@ -1,0 +1,13 @@
+created: 20240428075427685
+modified: 20240428091421813
+parent: 20240428-inbox
+stream-list: 
+stream-type: default
+title: 20240428-inbox
+
+iscooool/KeyMouse: Simple Vimium like program for Windows applications.: https://github.com/iscooool/KeyMouse
+
+@管理员-老陆 如果标签文字修改了，已经打了这个标签的文件可以自动修改吗，还是说得先把打了这个标签的所有文件筛选出来，去掉原来修改前的标签，再重新打新标签？如果是这样，文件的后面的标签位置就会变了，新标签就会加到最后。有没有可以不变动位置的办法呀。
+
+@Purr 目前可以自动更改用户在设置面板中指定的路径中的所有包含该标签的文件。但位置肯定会有所变动。
+

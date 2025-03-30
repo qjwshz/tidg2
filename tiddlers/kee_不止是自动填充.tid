@@ -1,0 +1,34 @@
+created: 20240121115722003
+modified: 20240121120655021
+tags: 
+title: kee:不止是自动填充
+tmap.id: a8cb1607-2a3b-40fb-b082-28b22c64e1c8
+
+网上将kee归类为一种基于Keepass的自动填充密码插件，如果只是自动填充，可能也勾不起自个兴趣。类似的如“keepasshttp”也很早前用过，但一个方面是它停更久矣，github上显示keepasshttp作者已经多年没更新了，最近一次也是在七八年前。里面提及的“ PassIFox for Mozilla Firefox and chromeIPass for Google Chrome”可能就更老了。另一方面的只是填充的话，keepass自身的填充，也基本够满足平常需求使用了。
+
+
+但有人提及起kee的另一好处是几近百分百成功率的网址抓取，而且 无须人为输入匹配网址，还能将网站图标一并获取，这成功吸引了自个注意，那就装一装试一试。
+
+在keepass官网上下载最新版，因为后面提及的RPC需要生效对版本号有要求；然后在插件页面分别下载“KeePassRPC”与"kee"，其他步骤参照这里，没有什么特别要注意的避坑点。
+
+以京东为例，效果达到预期。
+
+
+从2003-2023，不知不觉，近20年过去了~ 
+
+
+
+KeePass Password Safe
+https://keepass.info/index.html
+
+Kee - 自动填充密码插件 - Chrome生产工具插件 - 画夹插件网
+https://huajiakeji.com/productivity/2020-01/3042.html
+
+
+Plugins - KeePass
+https://keepass.info/plugins.html
+
+
+
+pfn/keepasshttp: KeePass plugin to expose password entries securely (256bit AES/CBC) over HTTP
+https://github.com/pfn/keepasshttp

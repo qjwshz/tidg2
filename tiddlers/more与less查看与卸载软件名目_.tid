@@ -1,0 +1,14 @@
+created: 20250121082522937
+modified: 20250121082633992
+title: more与less查看与卸载软件名目?
+tmap.id: 09bcd45c-b317-4b20-8385-fe8e40926cb4
+
+linux基础知识需加强。
+
+shift+space可搜索。
+
+apt search qq, wehcat, wps | more  less 均可搜索。但精确搜索还未试过。转向图形化的应用商店中有应用管理，可能更直观。
+
+管道命令传递的应用，又用到了kimi辅助问答
+
+以上均在统信上验证。

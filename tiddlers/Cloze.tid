@@ -1,0 +1,74 @@
+code-body: yes
+tags: $:/tags/QuestionTemplate
+title: Cloze
+tmap.id: 8bae96dd-ba55-4d4a-af94-1bd1ab8564d2
+
+<div
+    class="tc-tiddler-body"
+>
+    <$reveal
+        state=<<folded-state>>
+        type="nomatch"
+        text="show"
+        animate="yes"
+    >
+        <$reveal
+            default={{{ [{!!title}split[__]count[]] }}}
+            type="gteq"
+            text="3"
+            animate="yes"
+        >
+            <$list
+                filter="[{!!title}split[__]]"
+                variable="titleitem"
+                counter="counter"
+            >
+                <$reveal
+                    default={{{ [<counter>remainder[2]] }}}
+                    type="nomatch"
+                    text="0"
+                >
+                    <<titleitem>>
+                </$reveal>
+                <$reveal
+                    default={{{ [<counter>remainder[2]] }}}
+                    type="match"
+                    text="0"
+                >
+                    <$let
+                        clozeid=<<counter>>
+                        clozecontent=<<titleitem>>
+                        clozecontent={{{ [[$:/temp/fishing]getindex<clozeid>match[show]then<titleitem>else[`    `]] }}}
+                    >
+                        <$button
+                            class="tc-btn-invisible tc-tiddlylink"
+                        >
+                            <$action-setfield
+                                $tiddler="$:/temp/fishing"
+                                $index=<<clozeid>>
+                                $value={{{ [[$:/temp/fishing]getindex<clozeid>match[show]then[]else[show]] }}}
+                            />
+                                <<clozecontent>>
+                        </$button>
+                    </$let>
+                </$reveal>
+            </$list>
+        </$reveal>
+        <$reveal
+            default={{{ [{!!title}split[__]count[]] }}}
+            type="lt"
+            text="3"
+            animate="yes"
+        >
+            {{!!title}}
+        </$reveal>
+    </$reveal>
+    <$reveal
+        state=<<folded-state>>
+        type="match"
+        text="show"
+        animate="yes"
+    >
+        {{!!title}}
+    </$reveal>
+</div>

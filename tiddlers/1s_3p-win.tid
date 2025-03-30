@@ -1,0 +1,25 @@
+created: 20240328075810636
+modified: 20240807121630397
+tags: time\act
+title: 1s_3p-win
+
+
+! FTP
+
+2024-03-28 FTP(连接客户端有flashxp)，而http服务类，ev仅能下载，既能下又能上的则alist-windwos-amd64是非常好的选择，侧向于alist。webdz也简易，但缺点是无法按列排序。简单ftp也是可选择的，临时一用。
+
+! 命令提示符命令
+
+电源管理的cmd命令
+powercfg -lastwake  -devicequery wake_armed 更具体可见/?或--help或-help
+
+windows defender如何关闭呢？？2024-03-18，syun给出了答案：
+
+!! 开始运行
+
+shell:startup
+
+将快捷方式置于这里面，可开机启动实现。
+
+
+

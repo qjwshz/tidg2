@@ -1,0 +1,79 @@
+created: 20231003111759594
+modified: 20240929022700657
+tags: $:/tags/Commander/Working 1t
+title: 000a1太微日期格式-2023-10-03-1917
+
+
+2023-10-18 以下是用到了stream插件中的分枝命名格式，时间格式写法
+<<stream-root-title>>/<<now "[UTC]YYYY0MM0DD0hh0mm0ssXXX">> 
+
+&@#''<<now "YY0MM0DD-0hh0mm">>'' 直接改为左边一中括号
+
+''<<now "YYYY-0MM-0DD-0hh-0mm">> ''适用于新条目格式，而新日志格式则为，YYYY0MM0DD-inbox，起到收纳盒作用。
+
+<<now "DDth MMM YYYY hh:mm">>
+
+参考了太微群中给出的帮助，离线html中查看后得出正确写法。
+
+
+_____
+
+
+
+
+
+
+日期的默认表示，是一个紧凑的字符串，如 20211002153802059。 关联的模板是 [UTC]YYYY0MM0DD0hh0mm0ss0XXX。例如，created 和 modified 字段是如此存放的。
+
+此字符串的显示格式可由模板控制。例如，自动套用模板来显示日期，转换 modified 字段为 Sat Oct 02 2021 17:40:50 GMT+020（中欧夏令时间）。一些小工具和筛选器操作符，允许您手动指定模板，例如 $view：
+
+<$view field=modified format=date template="DDth mmm YYYY 0hh:0mm:0ss" />
+
+日期字符串使用以下替换处理：
+
+替换符号	替换值
+ddddd	 5.2.0 当年度的第几天（1 至 365，或闰年为 366）
+0ddddd	 5.2.0 当年度的第几天，前补零（001 至 365 或闰年为 366）
+DDD	星期别全名 (例如，"Monday")
+ddd	星期别缩写 (例如，"Mon")
+dddd	 5.2.0 工作日从 1 到 7，从星期一开始，到星期天结束
+DD	日
+0DD	日，前补零
+DDth	日，后缀
+WW	ISO-8601 当年度周别
+0WW	当年度周别，前补零
+MMM	月份全名 (例如，"July")
+mmm	月份缩写 (例如，"Jul")
+MM	月份
+0MM	月份，前补零
+YYYY	四位数西元年份
+YY	两位数西元年份
+wYYYY	四位数西元年份与当年度周别
+aYYYY	 5.1.23 完全年分，但负日期显示为正数
+wYY	两位数西元年份与当年度周别
+{era:BCE||CE}	 5.1.23 显示年份为负数、零或正数的其他字符串（见下文）
+hh	时
+0hh	时，前补零
+hh12	时，12 时制
+0hh12	时，12 时制，前补零
+mm	分
+0mm	分，前补零
+ss	秒
+0ss	秒，前补零
+XXX	毫秒
+0XXX	毫秒，前补零
+am or pm	小写字母 AM/PM
+AM or PM	大写字母 AM/PM
+TZD	时区位移
+TIMESTAMP	 5.2.4 自 ECMAScript epoch，1970 年 1 月 1 日以来的毫秒数。
+\x	用于脱逸字符，否则将有特殊意义
+[UTC]	时间位移表示日期到 UTC。必须始于格式字符串
+请注意，其他文本通过不变，允许逗号、冒号或其他要使用的分隔符号。
+
+{era:BCE||CE} 符号可以为年份指定不同的字符串，可以是负数、零或正数。例如， {era:BC|Z|AD} 将显示 BC 表示负数年， A 表示正数年，而 Z 表示零年。
+
+示例
+标记	输出
+DDth MMM YYYY	16th February 2011
+DDth MMM \M\M\M YYYY	16th February MMM 2011
+DDth mmm YYYY 0hh:0mm:0ss	16th Feb 2011 11:38:42

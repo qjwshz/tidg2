@@ -1,0 +1,21 @@
+created: 20241006063103229
+modified: 20241006063137997
+tags: 1t
+title: softdir
+type: text/vnd.tiddlywiki
+
+[[20240925100236131tc]]
+
+2024-10-06 Beyond Compare 提示错误"这个授权密钥已被吊销"的解决方法
+
+2021.06.08 14:37:58
+
+1. win7/win10环境下
+
+删除以下目录中的所有文件。
+
+C:\Users\【用户名】\AppData\Roaming\Scooter Software\Beyond Compare 4
+
+【】经测试，直接搜索Beyond Compare 4，用EV便能直接找到位置。
+
+

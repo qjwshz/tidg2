@@ -1,0 +1,17 @@
+created: 20240330083703291
+modified: 20240330083740781
+tags: 
+title: 1s_1t_alist
+
+2024-02-28
+
+用着用着，突然出现空白了。紧急搜索，并参照解决，临时解决，只能等后续作者更新。
+
+试了一下，polyfill.io返回的东西有问题，F12里阻止polyfill.io之后正常了，用Edge 121访问请求的polyfill地址返回了一堆内容，而按polyfill.io上的操作加上版本号后就不返回任何代码
+
+补充：
+F12阻止polyfill.io后，编辑AList管理-“设置”-“全局”内的“自定义头部”，添加“&version=3.111.0”即可修复
+<script src="https://polyfill.io/v3/polyfill.min.js?features=String.prototype.replaceAll">
+修改为
+<script src="https://polyfill.io/v3/polyfill.min.js?features=String.prototype.replaceAll&version=3.111.0">
+

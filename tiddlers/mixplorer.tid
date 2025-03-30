@@ -1,0 +1,11 @@
+created: 20250219032336227
+modified: 20250219032523240
+tags: android
+title: mixplorer
+tmap.id: 91d21a03-072c-4d0d-b8b5-bdc6c0781601
+
+mixplorer与mt管理器，各擅胜场。前者听ez说可以直接与alist的webdav方式相融合，而后者可以开启命令行模式，有时候用下find -name用法也是不错。
+
+与alist的整合用法，则前提版本号要大于6.684.
+
+今天20250219，升级下。

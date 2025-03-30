@@ -1,0 +1,15 @@
+created: 20231114051330285
+modified: 20231114051800011
+tags: 
+title: 3p-win_a1 查询硬盘序列号
+
+
+wmic path win32_physicalmedia get serialnumber
+
+wmic path win_physicalmedia get serialnumber
+
+以上两个成功率约百分之九十以上，剩余百分之十则可借助。
+
+D:\program\AcmeKit\HDTunePro.exe  飞扬时空工具包中有。 [[tools]]
+
+

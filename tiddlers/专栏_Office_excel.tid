@@ -1,0 +1,11 @@
+created: 20241112043713923
+modified: 20250205063801095
+tags: Paragraphs $:/tags/Commander/Working
+title: 专栏:Office_excel
+tmap.id: 0098dafb-b09c-4470-a918-18ab97268953
+
+<<paras "20241112043713921">>
+
+2024-11-08 Excel无法将工作表插入到目标工作簿中，因为目标工作簿的行数和列数比源工作少。原来是格式不统一问题.要么均xls要么均xlsx
+
+

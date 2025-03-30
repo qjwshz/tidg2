@@ -1,0 +1,15 @@
+created: 20231002033221469
+modified: 20240809102030553
+tags: 太记|太微|墨屉
+title: yy-太记/筛选-2nd 十月 2023 11:32
+
+Filter Expression 本身只是一个字串。例如是 [tag[Today]field:caption[hello]] 这样。我们可以利用 Filter Expression 来找出符合条件的 tiddler 们（List of tiddler）
+
+最基本的例子是找出所有有某个 Tag 的 tiddler [tag[Today]]、找出所有标题含有某个字的 tiddler [regexp:title[Journal]] 、或者复杂一点是找出所有有某个 Tag 的 tiddler 并且标题含有某个字的 tiddler 等[tag[journal_2020]regexp:title[Journal]]。
+
+
+
+
+太微中文教程 — 中文社区共建的TiddlyWiki教程，体验从入门到知识管理大师之路 以下链接中讲到了太微的重要特性-筛选。
+
+https://tw-cn.cpolar.top/#%E7%AD%9B%E9%80%89%E5%99%A8:%E7%AD%9B%E9%80%89%E5%99%A8

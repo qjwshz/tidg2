@@ -1,0 +1,32 @@
+annotate-colour: orange
+caption: 
+created: 20231204161608987
+difficulty: 4.8508
+due: 20240716120558649
+elapsed_days: 45.278530474537035
+grade: 1
+history: [{"due":"20231206172318211","interval":0,"difficulty":5,"stability":2,"retrievability":1,"grade":-1,"lapses":0,"reps":1,"review":"20231204172318211"},{"due":"20231213021250911","interval":2,"difficulty":4.1000000000000005,"stability":6.091873624375545,"retrievability":0.9,"grade":2,"lapses":0,"reps":2,"review":"20231207021250909"},{"due":"20231229014424307","interval":6,"difficulty":4.201431216877242,"stability":15.75000284058142,"retrievability":0.9014312168772408,"grade":1,"lapses":0,"reps":3,"review":"20231213014424306"}]
+interval: 26
+lapses: 0
+last_review: 20240618120558649
+modified: 20240929022700722
+reps: 2
+retrievability: 0.840357032360609
+review: 20240108010156876
+scheduled_days: 28
+stability: 28.19396023941785
+state: 2
+tags: ? 1s_tools cards_skill 太记|太微|墨屉 tiddlywiki time\act $:/tags/Commander/Working 1t
+title: 1s_tool_moti
+tmap.id: e2bfb415-9c60-44df-8079-1d0e89117362
+wysiwyg: yes
+
+n[2024-05-04,最后用到了web server，D:\weilisyncthing\download\WeiXin\Webdav\webdav.exe的最初发行版。这是电脑端，手机端则是旧版的webdav也照常使用。默认8080.地址只能是dcim或download，无法自定义选取。
+
+D:\weilisyncthing\dcim\twserver_0.4_windows_amd64\twserver.exe，只能临时一用，用于搭建http，保存时容易漏项。不如上述的浏览器扩展外加安装包。
+
+手机上的webdav也可一用，手机无网状态上不可用。这个确实是，如果无网络，无法使用了。
+
+2023-12-05 差矣，是配置文件没整明白。这下ok了，暂也无须备份，但需手工不定期备份。
+
+2023-12-07 不仅twserver.exe没有timimi稳定，反而造成困扰，明明退出，但仍旧在任务进程中。影响到微力同步。再次转回dcim中。通过浏览器扩展测试。

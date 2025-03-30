@@ -1,0 +1,25 @@
+created: 20240619164224459
+modified: 20240619164547620
+tags: $:/tags/TextEditor/Snippet
+title: 直搜三类
+
+直搜三类''标签标题关键词''仅显标题，搜索时显示内容容易卡崩,系统条目都会匹配到。最后再转入或标签，或标题搜索。
+
+!! 以下是模拟全聚可，合搜索，标签标题关键词 均可，空格为合同时符合
+
+以下是或，扩大搜索范围。
+
+<$list filter="[search:[XX1]][search:[XX2]!sort[created]]">
+
+!!! <$link><<currentTiddler>></$link>
+
+</$list>
+
+
+以下是且，缩小匹配范围
+
+<$list filter="[search:[牛人　niur cards]!sort[created]]">
+
+!!! <$link><<currentTiddler>></$link>
+
+</$list>

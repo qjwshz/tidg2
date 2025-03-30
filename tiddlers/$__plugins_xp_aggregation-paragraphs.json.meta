@@ -1,0 +1,12 @@
+author: kl
+created: 20230927134452617
+dependents: $:/plugins/xp/aggregation
+description: Exploring writing long articles in tiddlywiki
+list: readme settings
+modified: 20240216072405006
+name: Paragraphs
+parent-plugin: $:/plugins/xp/aggregation
+plugin-type: plugin
+title: $:/plugins/xp/aggregation-paragraphs
+type: application/json
+version: 0.0.4

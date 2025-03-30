@@ -1,0 +1,47 @@
+created: 20220401142641686
+difficulty: 4.44726558763971
+due: 20240223044831964
+grade: 1
+history: [{"due":"20230630050411752","interval":1,"difficulty":5,"stability":2,"retrievability":1,"grade":-1,"lapses":0,"reps":1,"review":"20230629050411752"},{"due":"20230912024540792","interval":29,"difficulty":4.417028309149895,"stability":45.8720175505013,"retrievability":0.21702830914989518,"grade":1,"lapses":0,"reps":2,"review":"20230728024540791"}]
+interval: 81
+lapses: 0
+modified: 20240504112116207
+reps: 3
+retrievability: 0.8302372784898147
+review: 20231017044831963
+stability: 129.23084402575213
+tags: 墨屉手册
+title: 相关插件
+type: text/vnd.tiddlywiki
+
+[img[fishing.png]]
+
+[[墨屉]]是基于 TiddlyWiki 的发行版，专注于间隔重复和渐进学习，可以将下列插件安装在TiddlyWiki中使用。
+
+推荐可以打开[[设置|$:/ControlPanel]]-''插件''中的{{$:/core/ui/ControlPanel/Plugins/AddPlugins}}，在''墨屉插件库''中搜索插件名，一键安装和更新插件。
+
+
+[[钓鱼插件]]
+
+<<<
+{{钓鱼插件}}
+<<<
+
+[[钓鱼分析子插件]]
+
+<<<
+{{钓鱼分析子插件}}
+<<<
+
+
+[[鱼罐头子插件]]
+
+<<<
+{{鱼罐头子插件}}
+<<<
+
+[[摸鱼子插件]]
+
+<<<
+{{摸鱼子插件}}
+<<<

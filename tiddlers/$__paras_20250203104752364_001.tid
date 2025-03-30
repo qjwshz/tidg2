@@ -1,0 +1,14 @@
+caption: 手机伪root
+created: 20250317024235919
+modified: 20250317024304047
+tags: $:/paras/20250203104752364
+title: $:/paras/20250203104752364/001
+type: 
+
+手机伪root
+
+用shizuku实现，需数据线连接，adb运行。
+
+adb shell sh /storage/emulated/0/Android/data/moe.shizuku.privileged.api/start.sh
+
+[[android]]

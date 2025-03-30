@@ -1,0 +1,33 @@
+created: 20240618115645531
+modified: 20240619162752826
+tags: $:/tags/TextEditor/Snippet
+title: 内容预览标签或正则标题
+
+!! 以下是按标题正则并排除@符号抽象，后者用于集合，一条龙。搜索罗列了  
+
+<$list filter="[regexp:title[XXm|XXi]!regexp:title[@]!sort[created]]">
+
+
+
+---
+!!! <$link><<currentTiddler>></$link>
+
+ {{!!text}}
+
+</$list>
+
+
+
+!! 以下是按标签搜索罗列了  
+
+<$list filter="[regexp:tags[XXX]!sort[created]]">
+
+--
+!!! <$link><<currentTiddler>></$link>
+
+ {{!!text}}
+
+</$list>
+
+
+

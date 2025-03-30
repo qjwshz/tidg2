@@ -1,0 +1,19 @@
+created: 20240619152128944
+modified: 20240619152239160
+tags: 
+title: 20240619152128939@me买买一条龙
+
+!! 以下是按标题正则并排除@符号抽象，后者用于集合，一条龙。搜索罗列了  
+
+<$list filter="[regexp:title[买买]!regexp:title[@]!sort[created]]">
+
+
+
+---
+!!! <$link><<currentTiddler>></$link>
+
+ {{!!text}}
+
+</$list>
+
+

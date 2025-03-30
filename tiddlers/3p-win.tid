@@ -1,0 +1,49 @@
+created: 20230617032514552
+modified: 20240329032014656
+tags: 1s_xdth win
+title: 3p-win
+
+
+
+!!! 思维导图
+
+2023-09-26 笔记：vnote，notepad3
+
+思维导图：freeplane
+
+播放器：vlc
+
+阅读器：bookxnote，sumatra pdf
+
+复习：anki
+
+开源全家桶，离线都能用
+
+
+!!! 网上冲浪
+
+Github 增强 - 高速下载
+https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD
+
+mouseinc就可以把窗口最小化到托盘
+
+用aActual Window Manager或者Actual Window Minimizer可将任意窗口最小化到托盘内，如osk.exe，解决部分ahk卡键问题。
+
+
+
+
+
+继鲁大师后，驱动精灵，人生均不提倡使用。反而是驱动总裁可临时选用，或直接去官网下载相应型号驱动。至于检测硬件方面，进pe是个方法，此外，图吧工具箱、硬件狗狗、入梦工具箱（变声器）等。
+
+
+代理软件，可让无法设置的，一样全局走代理。前提是要有个梯。Proxifier
+
+fsc加上贴图和贴文字后确实可以把其他截图软件下岗了,ocr用别的凑合.
+mybase666导入图标一套。并已归入坚果云中。6的占用确实要比8的要低。竖杠中文的方便搜索。.
+trilium抓取效果妥妥的。寸照pos，关键时候还是得祭出ps.
+
+electron打包后报错无法定位程序输入点 DiscardVirtualMemory 与动态链接库KERNEL32.DLL上.
+这是WindoWs 8.1新增加的函数。如果你用Win7是没这个功能的。看看软件有没有Win7或以前的版本，或者升级系统。目前来说，obsidian，siyuan均如此。受到影响。还有太记安装包。
+
+
+[[office]]

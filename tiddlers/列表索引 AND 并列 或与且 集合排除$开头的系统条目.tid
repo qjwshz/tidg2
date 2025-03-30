@@ -1,0 +1,22 @@
+created: 20231108135804522
+difficulty: 4.982063743149623
+due: 20240531040552384
+grade: 1
+history: [{"due":"20231114045344075","interval":0,"difficulty":5,"stability":2,"retrievability":1,"grade":-1,"lapses":0,"reps":1,"review":"20231112045344075"},{"due":"20231120042832894","interval":2,"difficulty":5.1000000000000005,"stability":5.512139752431654,"retrievability":0.9,"grade":1,"lapses":0,"reps":2,"review":"20231114042832893"},{"due":"20231216000643609","interval":11,"difficulty":5.110375996057292,"stability":21.180030822875224,"retrievability":0.8103759960572909,"grade":1,"lapses":0,"reps":3,"review":"20231125000643607"}]
+interval: 80
+lapses: 0
+modified: 20240213040552384
+reps: 4
+retrievability: 0.6716877470923303
+review: 20240213040552384
+stability: 108.32332493391048
+tags: 太记|太微|墨屉 ?
+title: 列表索引 AND 并列 或与且 集合排除$开头的系统条目
+
+
+
+
+{{{[!prefix[$:]regexp:title[ OR ]!sort[created]]}}}
+
+
+

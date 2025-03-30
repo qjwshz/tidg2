@@ -1,0 +1,30 @@
+created: 20230913021057836
+modified: 20231103034706324
+tags: tools tctc
+title: 一键移动文件(夹)至特定文件夹
+
+群友Star_ss转发群中写过em命令，如下：
+
+[em_Attrib_H]
+cmd=%COMSPEC%
+param=/C attrib -h *.ion
+iconic=1
+menu=去掉TC备注文件descript.ion的隐藏文件属性
+
+[em_AddCommentAndRemoveHidden]
+cmd=cm_EditComment,CM_WAIT 200,em_Attrib_H
+menu=为文件添加备注后自动将备注文件descript.ion去除隐藏属性，以便坚果云可以同步TC备注文件（坚果云不能同步隐藏属性的文件） - 将此命令定义为Ctrl+Z热键
+
+zach编写的bat命令，menu=将选中的文件和文件夹移动到对侧面板：组合4个em命令_步骤5-完成（可处理备注及带英文括号的文件名）
+
+
+以下是注意事项：
+你将上面几条em命令中的%T替换为你要移动到的实际路径即可，其他不要动即可。
+我验证了上面的em命令，移动到对侧目录没有问题，但没有验证移动到指定目录，应该没有什么问题。
+你验证一下，如果有问题，再修改。验证无问题。
+忘了说，TC中的%T后面带\，所以，你的绝对路径最后必须有一个\，不然就会出错了。比如，可以是D:\temp\
+
+
+已归入usercmd.ini中，利用而今迈步从头越的tmd.ahk进行搜索自定义命令。如同唤出pandoc。
+
+[[totalcommander-tctc]]

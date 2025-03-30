@@ -1,0 +1,13 @@
+created: 20250117084052986
+modified: 20250117084119874
+title: everything中如何精确搜索后缀?
+tmap.id: 51e7ff81-b129-4be3-81f5-ac95fe29bc6a
+
+ext:xls;xlsx;et 总结
+以上用与搜索文件后缀为xls或xlsx或et 且 文件名关键词中带有“总结”的
+文件
+ext:doc;docx;wps 总结
+以上用与搜索文件后缀为doc或docx或wps 且 文件名关键词中带有“总结”
+的文件
+后缀可以修改变化，关键词也可以变化
+

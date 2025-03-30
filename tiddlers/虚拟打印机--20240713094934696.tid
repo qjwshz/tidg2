@@ -1,0 +1,12 @@
+created: 20240713094934705
+modified: 20240713105339720
+tags: exported
+title: 虚拟打印机--20240713094934696
+type: text/vnd.tiddlywiki
+
+q:ofd文件怎么转换为pdf?
+a:虚拟打印机，如pdffactory，如果乱码。可先用xps生成，再sumatrapdf打开它，重作次虚拟打印即可。
+q:如果想直接打开呢？
+a:增值税电子发票阅读器.zip,DocBox-稻壳阅读器.7z均可打开它。拖入即可
+q:还有其他的虚拟打印机么？
+a:microsoft xps document writer虚拟打印等

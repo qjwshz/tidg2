@@ -1,0 +1,10 @@
+created: 20240703153603298
+modified: 20240703153941371
+tags: 
+title: ip切换20240703153603297
+type: text/vnd.tiddlywiki
+
+q: 为什么需要ip切？
+
+a：不同网络环境下切换，适配于webdz等。IPCFG.exe是个好工具，电脑好软。ip地址切换器，解决换来换去的烦恼。
+

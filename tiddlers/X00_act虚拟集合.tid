@@ -1,0 +1,23 @@
+caption: 
+created: 20231030152616418
+difficulty: 4.931313869147907
+due: 20240608105603146
+grade: 1
+history: [{"due":"20231102155710919","interval":0,"difficulty":5,"stability":2,"retrievability":1,"grade":-1,"lapses":0,"reps":1,"review":"20231031155710919"},{"due":"20231127110354073","interval":9,"difficulty":4.822431111850943,"stability":17.93125127850223,"retrievability":0.6224311118509421,"grade":1,"lapses":0,"reps":2,"review":"20231109110354072"},{"due":"20240105090019820","interval":18,"difficulty":4.922067626668077,"stability":38.82844990724686,"retrievability":0.8996365148171338,"grade":1,"lapses":0,"reps":3,"review":"20231127090019820"}]
+interval: 78
+lapses: 0
+modified: 20240213105603146
+reps: 4
+retrievability: 0.8092462424798302
+review: 20240213105603146
+stability: 115.91000004964037
+tags: 太记|太微|墨屉 ?
+title: X00_act虚拟集合
+
+<$list filter="[!prefix[$:]regexp:title[act]!sort[created]]">
+
+
+
+
+
+

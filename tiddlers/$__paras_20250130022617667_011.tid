@@ -1,0 +1,21 @@
+caption: 如何用命令行卸载软件？
+created: 20250317103443757
+modified: 20250317103507732
+tags: $:/paras/20250130022617667
+title: $:/paras/20250130022617667/011
+type: 
+
+2025-03-15 周六
+
+linux  uname -a  arch  可以判断出到底是那个cpu，是x86-64还是，arm64呢？
+
+如何卸载：以picgo为例子
+
+sudo dpkg -l | picgo 3000 证书关键词
+
+sudo dpkg -r picgo
+
+自动清理 sudo apt autoclean autoremove 
+
+解决了天融信客户端打不开的问题.
+

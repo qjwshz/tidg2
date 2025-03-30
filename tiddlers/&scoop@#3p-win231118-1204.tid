@@ -1,0 +1,10 @@
+created: 20231118040404907
+modified: 20231118040428151
+tags: 
+title: &scoop@#3p-win231118-1204
+
+Scoop on Windows
+$ scoop install lux
+Chocolatey on Windows
+$ choco install lux
+

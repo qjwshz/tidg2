@@ -1,0 +1,16 @@
+created: 20231030152432817
+modified: 20240213110140108
+tags: 
+title: X00_supermemo聚集
+
+
+	
+<$list filter="[tag[sm--20240213190101]!sort[created]]">
+
+---
+!!! <$link><<currentTiddler>></$link>
+
+ {{!!text}}
+
+</$list>
+

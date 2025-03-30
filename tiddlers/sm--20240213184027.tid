@@ -1,0 +1,21 @@
+caption: 
+created: 20231101040832858
+difficulty: 4.007675208128916
+due: 20240620104329294
+grade: 1
+history: [{"due":"20231106083234248","interval":0,"difficulty":5,"stability":2,"retrievability":1,"grade":-1,"lapses":0,"reps":1,"review":"20231104083234248"},{"due":"20231120110722387","interval":5,"difficulty":4.968433471420917,"stability":10.8623997997734,"retrievability":0.7684334714209162,"grade":1,"lapses":0,"reps":2,"review":"20231109110722386"},{"due":"20231229000316942","interval":16,"difficulty":4.02468338946307,"stability":34.45504146508707,"retrievability":0.8562499180421534,"grade":2,"lapses":0,"reps":3,"review":"20231125000316940"}]
+interval: 80
+lapses: 0
+modified: 20241018041812266
+reps: 4
+retrievability: 0.7829918186658457
+review: 20240213104329294
+stability: 127.86203169347121
+tags: ? sm
+title: sm--20240213184027
+
+科学实验，数学推导，源代码描述、编程示例，案例研究等
+
+在这种情况下，请使用传统的全面分析方法，汇总分析结果，并使用SuperMemo跟踪自己的总结。
+
+[[0001a sm]]

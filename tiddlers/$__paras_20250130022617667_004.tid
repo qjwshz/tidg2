@@ -1,0 +1,21 @@
+caption: Dc图形界面gtk-Qt的区别
+created: 20250203025644582
+modified: 20250203091622688
+tags: $:/paras/20250130022617667
+title: $:/paras/20250130022617667/004
+type: 
+
+在下载double commander版本时遇见的，问kimi，得知：
+
+各自采用不同语言，qt对windows兼容要好，而gtk主要应用于linux，尤其对gone界面好。
+
+那怎么判断呢，gone界面又是什么？
+
+而如果dc用不了，除了凑合着用原生资管，剩下的选项就是虚拟机或WINE最新版，用wine tc 。虚拟机要前提解决网络互通的问题。
+
+如何判断系统使用的是GNOME还是基于Qt的KDE桌面环境?
+
+打开终端，输入以下命令：
+echo $XDG_CURRENT_DESKTOP
+
+如果输出为GNOME，则表示当前使用的是GNOME桌面环境。如果输出为KDE或Plasma，则表示使用的是KDE桌面环境（KDE是基于Qt的桌面环境）。

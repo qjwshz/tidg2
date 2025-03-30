@@ -1,0 +1,32 @@
+annotate-colour: orange
+created: 20240211141218900
+difficulty: 4.8508
+due: 20240611045023380
+elapsed_days: 82.60425236111111
+lapses: 0
+last_review: 20240504045023380
+modified: 20240505023944255
+reps: 2
+scheduled_days: 38
+stability: 37.66066527466134
+state: 2
+tags: ? wechat hx_f翻
+title: q:qtranslate
+tmap.id: b2898e5d-7a33-4516-aad7-2e086642274f
+
+2024-05-05 沙拉查词，彩云小译，欧路词典，MDict，goldendict
+
+2024-02-11 
+而今借助词典逐词翻译好像已经是个out的作法了，不安排个整句翻译都感觉没有立处时代边缘，更别提整篇整章整扔进chatgpt中作智能比对翻译的新潮流了。
+
+并没有玩这么花，毕竟有些文本并不适合全喂给AI。但整句翻译还装备上得装备上，也曾一度眼馋沙拉查词中彩云小译对句子的直译，而目前qtranslate中调用google translate能作到，内置的有道词典也勉强可以，几相结合比对，基本够用。
+
+应该不是第一次提到qtranslate了。搜索下。
+
+按照网上教程，改com为cn并不起作用。改用科学上网，代理设置后，从不能用变成很好用了。
+
+当然，如果说复制粘贴进相应翻译页面框中，也不是不行，只是qtranslate简化了这些步骤，起到三合一，N合一的效果。
+
+
+[[q:闪电腾不错]]
+
